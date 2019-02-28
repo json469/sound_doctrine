@@ -4,18 +4,22 @@ import './data/lordsday.dart';
 import './lordsday.dart';
 
 class HeidelbergPage extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
-    return ListView.builder(
-      itemCount: Heidelberg.items.length ?? 0,
-      itemBuilder: (BuildContext context, int index) {
-        return _buildExpandableListView(context, index);
-      },
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Heidelberg Catechism'),
+      ),
+      body: ListView.builder(
+        itemCount: Heidelberg.items.length ?? 0,
+        itemBuilder: (BuildContext context, int index) {
+          return _buildSections(context, index);
+        },
+      ),
     );
   }
 
-  Widget _buildExpandableListView(BuildContext context, int index) {
+  Widget _buildSections(BuildContext context, int index) {
     return ExpansionTile(
       title: Text(Heidelberg.items[index].header),
       children:
@@ -24,7 +28,7 @@ class HeidelbergPage extends StatelessWidget {
   }
 
   List<Widget> _buildExpandedListView(
-      BuildContext context, List<LordsDay> lordsDays) {
+    BuildContext context, List<LordsDay> lordsDays) {
     List<Widget> expandedList = [];
     lordsDays.forEach((lordsDay) {
       expandedList.add(
