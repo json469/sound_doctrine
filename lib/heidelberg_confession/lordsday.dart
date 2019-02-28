@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+
+import '../theme/styles.dart' as Styles;
 import './data/lordsday.dart';
 import './data/questionandanswer.dart';
 
@@ -27,10 +29,7 @@ class LordsDayPage extends StatelessWidget {
             children: <Widget>[
               Text(
                 qna[index].question,
-                style: TextStyle(
-                  fontWeight: FontWeight.w500,
-                  fontSize: 16.0,
-                ),
+                style: Styles.Fonts.questionFont
               ),
               Text(qna[index].answer),
             ],

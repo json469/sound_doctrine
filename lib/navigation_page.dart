@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+
+import 'theme/styles.dart' as Styles;
 import 'apostles_creed/apostlescreed_page.dart';
 import 'nicene_creed/nicenecreed_page.dart';
 import 'athanasian_creed/athanasiancreed_page.dart';
@@ -82,11 +84,7 @@ Widget _buildHeader(String title) {
     color: Colors.blueGrey[700],
     padding: EdgeInsets.symmetric(horizontal: 16.0),
     alignment: Alignment.centerLeft,
-    child: Text(
-      '$title',
-      style: TextStyle(
-          fontSize: 18.0, color: Colors.white, fontWeight: FontWeight.w500),
-    ),
+    child: Text('$title', style: Styles.Fonts.headerFont),
   );
 }
 

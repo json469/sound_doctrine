@@ -40,7 +40,7 @@ flutter:
       fonts:
         - asset: fonts/OpenSans-Regular.ttf
         - asset: fonts/OpenSans-Bold.ttf
-          weight: 500
+          weight: 700
         - asset: fonts/OpenSans-Light.ttf
           weight: 200
   # The following line ensures that the Material Icons font is

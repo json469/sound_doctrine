@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:sticky_headers/sticky_headers.dart';
 
+import '../theme/styles.dart' as Styles;
 import './data/heidelberg.dart';
 import './data/section.dart';
 import './lordsday.dart';
@@ -46,11 +47,7 @@ class HeidelbergPage extends StatelessWidget {
       color: Colors.blueGrey[700],
       padding: EdgeInsets.symmetric(horizontal: 16.0),
       alignment: Alignment.centerLeft,
-      child: Text(
-        '$title',
-        style: TextStyle(
-            fontSize: 18.0, color: Colors.white, fontWeight: FontWeight.w500),
-      ),
+      child: Text('$title', style: Styles.Fonts.headerFont),
     );
   }
 }
