@@ -1,0 +1,3 @@
+class ApostlesCreed {
+  static final String item = "I believe in God, the Father Almighty,\nthe Maker of heaven and earth,\nand in Jesus Christ, His only Son, our Lord:\n\nWho was conceived by the Holy Ghost,\n  born of the virgin Mary,\n  suffered under Pontius Pilate,\n  was crucified, dead, and buried;\n\nHe descended into hell.\n\nThe third day He arose again from the dead;\n\nHe ascended into heaven,\n  and sitteth on the right hand of God the Father Almighty;\n  from thence he shall come to judge the quick and the dead.\n\nI believe in the Holy Ghost;\n  the holy catholic church;\n  the communion of saints;\n  the forgiveness of sins;\n  the resurrection of the body;\n  and the life everlasting.\n\nAmen.";
+}
