@@ -1,6 +1,5 @@
-# sound_doctrine
-
-A new Flutter project.
+# Sound Doctrine
+One app to locally access the tested creeds and confessions of protestant and reformed church.
 
 ## Getting Started
 
