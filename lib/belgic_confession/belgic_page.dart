@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:sticky_headers/sticky_headers.dart';
 
 import './data/belgic_confession.dart';
+import 'article_page.dart';
 
 class BelgicPage extends StatelessWidget {
   @override
@@ -10,30 +10,20 @@ class BelgicPage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Heidelberg Catechism (A.D. 1576)'),
       ),
-      body: ListView.builder(
+      body: ListView.separated(
         itemCount: BelgicConfession.item.length,
         itemBuilder: (BuildContext context, int index) {
-          return StickyHeader(
-              header: _buildHeader(BelgicConfession.item[index].title),
-              content: Container(
-                padding: EdgeInsets.all(16.0),
-                child: Text(BelgicConfession.item[index].content),
-              ));
+          return ListTile(
+            title: Text(BelgicConfession.item[index].title),
+            onTap: () => Navigator.push(
+                context,
+                MaterialPageRoute(
+                    builder: (context) =>
+                        ArticlePage(article: BelgicConfession.item[index]))),
+          );
         },
-      ),
-    );
-  }
-
-  Widget _buildHeader(String title) {
-    return Container(
-      height: 60.0,
-      color: Colors.blueGrey[700],
-      padding: EdgeInsets.symmetric(horizontal: 16.0),
-      alignment: Alignment.centerLeft,
-      child: Text(
-        '$title',
-        style: TextStyle(
-            fontSize: 18.0, color: Colors.white, fontWeight: FontWeight.bold),
+        separatorBuilder: (BuildContext context, int index) =>
+            Divider(height: 0.0),
       ),
     );
   }

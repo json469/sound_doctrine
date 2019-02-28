@@ -53,12 +53,12 @@ List<Widget> _buildCreedsList(BuildContext context) {
 List<Widget> _buildConfessionsList(BuildContext context) {
   final List<NavigationPageItem> _confessionsPageItems = [
     NavigationPageItem(
-      title: "Heidelberg Catechism (A.D. 1576)",
-      route: HeidelbergPage(),
-    ),
-    NavigationPageItem(
       title: "Belgic Confession (A.D. 1561)",
       route: BelgicPage(),
+    ),
+    NavigationPageItem(
+      title: "Heidelberg Catechism (A.D. 1576)",
+      route: HeidelbergPage(),
     ),
   ];
 
