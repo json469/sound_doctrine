@@ -36,6 +36,7 @@ class NavigationDrawer extends StatelessWidget {
     });
 
     return ListView(
+      padding: EdgeInsets.all(0.0),
       children: _drawerList,
     );
   }
