@@ -3,6 +3,7 @@ import 'apostles_creed/apostlescreed_page.dart';
 import 'nicene_creed/nicenecreed_page.dart';
 import 'athanasian_creed/athanasiancreed_page.dart';
 import 'heidelberg_confession/heidelberg_page.dart';
+import 'belgic_confession/belgic_page.dart';
 
 class NavigationPage extends StatelessWidget {
   @override
@@ -54,6 +55,10 @@ List<Widget> _buildConfessionsList(BuildContext context) {
     NavigationPageItem(
       title: "Heidelberg Catechism (A.D. 1576)",
       route: HeidelbergPage(),
+    ),
+    NavigationPageItem(
+      title: "Belgic Confession (A.D. 1561)",
+      route: BelgicPage(),
     ),
   ];
 
