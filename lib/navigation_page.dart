@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'navigation_drawer.dart';
 import 'heidelberg/heidelberg_page.dart';
 import 'apostlescreed/apostlescreed_page.dart';
 
@@ -18,22 +17,20 @@ class NavigationPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Project Reformation'),
-      ),
       body: _buildNavigations(),
-      drawer: NavigationDrawer(),
     );
   }
 
   Widget _buildNavigations() {
-    ListView.builder(
+    return ListView.builder(
       itemCount: _navigationPageItems.length,
       itemBuilder: (BuildContext context, int index) {
-        ListTile(
+        return ListTile(
           title: Text('${_navigationPageItems[index].title}'),
-          onTap: () => Navigator.push(context,
-              MaterialPageRoute(builder: (context) => _navigationPageItems[index].route)),
+          onTap: () => Navigator.push(
+              context,
+              MaterialPageRoute(
+                  builder: (context) => _navigationPageItems[index].route)),
         );
       },
     );

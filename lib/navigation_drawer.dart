@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'about.dart';
 
 const APP_VERSION = 'v0.0.1';
-const APP_NAME = 'Project Heidelberg';
+const APP_NAME = 'project-feed_ggoggoddak';
 const APP_LOGO = FlutterLogo(size: 32.0);
 
 class NavigationDrawer extends StatelessWidget {
