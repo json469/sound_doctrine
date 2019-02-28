@@ -20,11 +20,21 @@ class LordsDayPage extends StatelessWidget {
     return ListView.builder(
       itemCount: qna.length,
       itemBuilder: (BuildContext context, int index) {
-        return Column(
-          children: <Widget>[
-            Text(qna[index].question),
-            Text(qna[index].answer),
-          ],
+        return Container(
+          padding: EdgeInsets.all(16.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              Text(
+                qna[index].question,
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 16.0,
+                ),
+              ),
+              Text(qna[index].answer),
+            ],
+          ),
         );
       },
     );
