@@ -5,6 +5,7 @@ import 'nicene_creed/nicenecreed_page.dart';
 import 'athanasian_creed/athanasiancreed_page.dart';
 import 'chalcedonian_creed/chalcedoniancreed_page.dart';
 import 'counciloforange_canon/counciloforangecanon_page.dart';
+import 'second_council_of_contantionople/second_council_of_contantionople_page.dart';
 import 'ninetyfive_theses/ninteyfivethesese_page.dart';
 import 'heidelberg_confession/heidelberg_page.dart';
 import 'belgic_confession/belgic_page.dart';
@@ -45,6 +46,10 @@ List<Widget> _buildCreedsList(BuildContext context) {
     NavigationPageItem(
       title: "Canons on the Council of Orange (A.D. 529)",
       route: CouncilOfOrangeCanonPage(),
+    ),
+    NavigationPageItem(
+      title: "Second Council of Constantinople (A.D. 553)",
+      route: SecondCouncilOfContantionoplePage(),
     ),
   ];
 
