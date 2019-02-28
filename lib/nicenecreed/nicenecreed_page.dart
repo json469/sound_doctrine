@@ -6,7 +6,7 @@ class NiceneCreedPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("The Apostles' Creed"),
+        title: Text("Nicene Creed (A.D. 325)"),
       ),
       body: Container(
         padding: EdgeInsets.all(16.0),

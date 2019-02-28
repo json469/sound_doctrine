@@ -10,11 +10,11 @@ class NavigationPage extends StatelessWidget {
       route: ApostlesCreedPage(),
     ),
     NavigationPageItem(
-      title: "Nicene Creed",
+      title: "Nicene Creed (A.D. 325)",
       route: NiceneCreedPage(),
     ),
     NavigationPageItem(
-      title: "Heidelberg Catechism",
+      title: "Heidelberg Catechism (A.D. 1576)",
       route: HeidelbergPage(),
     ),
   ];

@@ -8,7 +8,7 @@ class HeidelbergPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Heidelberg Catechism'),
+        title: Text('Heidelberg Catechism (A.D. 1576)'),
       ),
       body: ListView.builder(
         itemCount: Heidelberg.items.length ?? 0,
