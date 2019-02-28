@@ -41,9 +41,7 @@ class Home extends StatelessWidget {
           onTap: () => Navigator.push(
               context,
               MaterialPageRoute(
-                  builder: (context) => LordsDayPage(
-                        lordsDay: lordsDay,
-                      ))),
+                  builder: (context) => LordsDayPage(lordsDay: lordsDay))),
         ),
       );
     });
