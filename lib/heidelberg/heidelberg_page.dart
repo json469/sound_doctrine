@@ -24,13 +24,12 @@ class HeidelbergPage extends StatelessWidget {
                 alignment: Alignment.centerLeft,
                 child: new Text(
                   '${Heidelberg.items[index].header}',
-                  style: const TextStyle(color: Colors.white),
+                  style: TextStyle(fontSize: 16.0, color: Colors.white),
                 ),
               ),
               content: Column(
                 children: _buildChildItems(context, Heidelberg.items[index]),
-              )
-              );
+              ));
         },
       ),
     );
@@ -46,6 +45,7 @@ class HeidelbergPage extends StatelessWidget {
             MaterialPageRoute(
                 builder: (context) => LordsDayPage(lordsDay: lordsDay))),
       ));
+      childItems.add(Divider(height: 0.0));
     });
     return childItems;
   }
