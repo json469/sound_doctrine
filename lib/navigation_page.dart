@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'apostlescreed/apostlescreed_page.dart';
-import 'nicenecreed/nicenecreed_page.dart';
-import 'athanasiancreed/athanasiancreed_page.dart';
-import 'heidelberg/heidelberg_page.dart';
+import 'apostles_creed/apostlescreed_page.dart';
+import 'nicene_creed/nicenecreed_page.dart';
+import 'athanasian_creed/athanasiancreed_page.dart';
+import 'heidelberg_confession/heidelberg_page.dart';
 
 class NavigationPage extends StatelessWidget {
   @override
