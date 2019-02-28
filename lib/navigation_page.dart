@@ -32,7 +32,7 @@ class NavigationPage extends StatelessWidget {
   }
 
   Widget _buildNavigations() {
-    return ListView.builder(
+    return ListView.separated(
       itemCount: _navigationPageItems.length,
       itemBuilder: (BuildContext context, int index) {
         return ListTile(
@@ -43,6 +43,7 @@ class NavigationPage extends StatelessWidget {
                   builder: (context) => _navigationPageItems[index].route)),
         );
       },
+      separatorBuilder: (BuildContext context, int index) => Divider(),
     );
   }
 }

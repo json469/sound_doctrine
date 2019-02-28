@@ -10,11 +10,12 @@ class HeidelbergPage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Heidelberg Catechism (A.D. 1576)'),
       ),
-      body: ListView.builder(
+      body: ListView.separated(
         itemCount: Heidelberg.items.length ?? 0,
         itemBuilder: (BuildContext context, int index) {
           return _buildSections(context, index);
         },
+        separatorBuilder: (BuildContext context, int index) => Divider(),
       ),
     );
   }
@@ -28,7 +29,7 @@ class HeidelbergPage extends StatelessWidget {
   }
 
   List<Widget> _buildExpandedListView(
-    BuildContext context, List<LordsDay> lordsDays) {
+      BuildContext context, List<LordsDay> lordsDays) {
     List<Widget> expandedList = [];
     lordsDays.forEach((lordsDay) {
       expandedList.add(
