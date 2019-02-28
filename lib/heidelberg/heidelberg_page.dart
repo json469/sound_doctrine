@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import './data/heidelberg.dart';
 import './data/lordsday.dart';
-import './lordsday_page.dart';
+import './lordsday.dart';
 
 class HeidelbergPage extends StatelessWidget {
 
