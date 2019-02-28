@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import './heidelberg.dart';
+import './data/lordsday.dart';
+import './data/questionandanswer.dart';
 
 class LordsDayPage extends StatelessWidget {
   final LordsDay lordsDay;

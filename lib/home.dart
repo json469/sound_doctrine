@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import './heidelberg.dart';
-import './lordsday_page.dart';
+import './data/heidelberg.dart';
+import './data/lordsday.dart';
+import 'lordsday_page.dart';
 
 class Home extends StatelessWidget {
   @override
@@ -22,12 +23,11 @@ class Home extends StatelessWidget {
     );
   }
 
-  Widget _buildExpandableListView(BuildContext context, int indexx) {
-    print(Heidelberg.items[indexx].lordsDays.length);
+  Widget _buildExpandableListView(BuildContext context, int index) {
     return ExpansionTile(
-      title: Text(Heidelberg.items[indexx].header),
+      title: Text(Heidelberg.items[index].header),
       children:
-          _buildExpandedListView(context, Heidelberg.items[indexx].lordsDays),
+          _buildExpandedListView(context, Heidelberg.items[index].lordsDays),
     );
   }
 
