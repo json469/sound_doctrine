@@ -3,7 +3,6 @@ import 'package:sticky_headers/sticky_headers.dart';
 
 import './data/heidelberg.dart';
 import './data/section.dart';
-import './data/lordsday.dart';
 import './lordsday.dart';
 
 class HeidelbergPage extends StatelessWidget {
@@ -18,13 +17,16 @@ class HeidelbergPage extends StatelessWidget {
         itemBuilder: (BuildContext context, int index) {
           return StickyHeader(
               header: Container(
-                height: 50.0,
+                height: 60.0,
                 color: Colors.blueGrey[700],
-                padding: new EdgeInsets.symmetric(horizontal: 16.0),
+                padding: EdgeInsets.symmetric(horizontal: 16.0),
                 alignment: Alignment.centerLeft,
-                child: new Text(
+                child: Text(
                   '${Heidelberg.items[index].header}',
-                  style: TextStyle(fontSize: 16.0, color: Colors.white),
+                  style: TextStyle(
+                      fontSize: 18.0,
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold),
                 ),
               ),
               content: Column(
