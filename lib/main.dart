@@ -9,8 +9,8 @@ class App extends StatelessWidget {
     return MaterialApp(
       title: 'Project Heidelberg',
       theme: ThemeData(
-        fontFamily: 'Open Sans',
-      ),
+          fontFamily: 'Open Sans',
+          textTheme: TextTheme(body1: TextStyle(fontSize: 18.0))),
       home: Home(),
     );
   }
