@@ -4,7 +4,9 @@ import 'about.dart';
 const APP_LOGO = FlutterLogo(size: 32.0);
 const APP_VERSION = 'v1.0';
 const APP_NAME = 'Sound Doctrine';
-const APP_DEVLOPER = 'by Jesse Son';
+const APP_DESCRIPTION =
+    'An offline library app of the creeds, confessions and catechisms of the protestant reformed churches.';
+const APP_DEVLOPER = 'Developed by Jesse Son.';
 
 class NavigationDrawer extends StatelessWidget {
   final List<DrawerItem> _drawerItems = [
@@ -21,12 +23,13 @@ class NavigationDrawer extends StatelessWidget {
   ListView _renderDrawerList(BuildContext context) {
     List<Widget> _drawerList = [
       _renderDrawerHeader(context),
+      _renderDrawerSubHeader(context),
     ];
 
     _drawerItems.forEach((_drawerItem) {
       _drawerList.add(ListTile(
           title: Text(_drawerItem.title),
-          leading: Icon(_drawerItem.icon),
+          leading: Icon(_drawerItem.icon, color: Colors.black,),
           onTap: () {
             Navigator.push(
               context,
@@ -44,6 +47,7 @@ class NavigationDrawer extends StatelessWidget {
   Widget _renderDrawerHeader(BuildContext context) {
     return DrawerHeader(
       decoration: BoxDecoration(color: Theme.of(context).primaryColor),
+      margin: EdgeInsets.all(0.0),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
@@ -59,9 +63,27 @@ class NavigationDrawer extends StatelessWidget {
             APP_VERSION,
             style: Theme.of(context).textTheme.caption,
           ),
+        ],
+      ),
+    );
+  }
+
+  Widget _renderDrawerSubHeader(BuildContext context) {
+    return Container(
+      padding: EdgeInsets.all(16.0),
+      decoration: BoxDecoration(color: Colors.blueGrey[700]),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          Text(
+            APP_DESCRIPTION,
+            style: TextStyle(fontSize: 14.0, color: Colors.white),
+          ),
+          Divider(height: 16.0),
           Text(
             APP_DEVLOPER,
-            style: Theme.of(context).textTheme.caption,
+            style: TextStyle(fontSize: 14.0, color: Colors.white),
           ),
         ],
       ),
