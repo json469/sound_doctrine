@@ -1,4 +1,4 @@
-package com.example.project_heidelberg;
+package com.example.sound_doctrine;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;
