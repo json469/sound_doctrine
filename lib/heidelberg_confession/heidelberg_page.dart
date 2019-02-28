@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sticky_headers/sticky_headers.dart';
 
-import '../theme/styles.dart' as Styles;
 import './data/heidelberg.dart';
 import './data/section.dart';
 import './lordsday.dart';
@@ -11,13 +10,14 @@ class HeidelbergPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Heidelberg Catechism (A.D. 1576)'),
+        title: Text('Heidelberg Catechism (A.D. 1576)',
+            style: Theme.of(context).textTheme.title),
       ),
       body: ListView.builder(
         itemCount: Heidelberg.items.length ?? 0,
         itemBuilder: (BuildContext context, int index) {
           return StickyHeader(
-              header: _buildHeader(Heidelberg.items[index].header),
+              header: _buildHeader(context, Heidelberg.items[index].header),
               content: Column(
                 children: _buildChildItems(context, Heidelberg.items[index]),
               ));
@@ -41,13 +41,13 @@ class HeidelbergPage extends StatelessWidget {
     return childItems;
   }
 
-  Widget _buildHeader(String title) {
+  Widget _buildHeader(BuildContext context, String title) {
     return Container(
-      height: 60.0,
+      height: 50.0,
       color: Colors.blueGrey[700],
       padding: EdgeInsets.symmetric(horizontal: 16.0),
       alignment: Alignment.centerLeft,
-      child: Text('$title', style: Styles.Fonts.headerFont),
+      child: Text('$title', style: Theme.of(context).textTheme.display1),
     );
   }
 }

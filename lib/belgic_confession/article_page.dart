@@ -9,7 +9,8 @@ class ArticlePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('${article.title}'),
+        title:
+            Text('${article.title}', style: Theme.of(context).textTheme.title),
       ),
       body: Container(
         padding: EdgeInsets.all(16.0),

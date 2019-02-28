@@ -6,7 +6,8 @@ class ApostlesCreedPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Apostles' Creed"),
+        title: Text("Apostles' Creed",
+        style: Theme.of(context).textTheme.title),
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(16.0),

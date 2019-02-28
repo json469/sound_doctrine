@@ -7,7 +7,8 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Project Feed GgoGgoddak'),
+        title: Text('Creed and Confessions',
+            style: Theme.of(context).textTheme.title),
       ),
       body: NavigationPage(),
       drawer: NavigationDrawer(),

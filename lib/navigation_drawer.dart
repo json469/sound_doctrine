@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'about.dart';
 
-const APP_VERSION = 'v0.0.1';
-const APP_NAME = 'project-feed_ggoggoddak';
 const APP_LOGO = FlutterLogo(size: 32.0);
+const APP_VERSION = 'v1.0';
+const APP_NAME = 'Creed and Confessions';
+const APP_DEVLOPER = 'by Jesse Son';
 
 class NavigationDrawer extends StatelessWidget {
   final List<DrawerItem> _drawerItems = [
@@ -56,7 +57,11 @@ class NavigationDrawer extends StatelessWidget {
           Text(
             APP_VERSION,
             style: Theme.of(context).textTheme.caption,
-          )
+          ),
+          Text(
+            APP_DEVLOPER,
+            style: Theme.of(context).textTheme.caption,
+          ),
         ],
       ),
     );
