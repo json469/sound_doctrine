@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import './data/heidelberg.dart';
 import './data/lordsday.dart';
+import 'navigation_drawer.dart';
 import 'lordsday_page.dart';
 
 class Home extends StatelessWidget {
@@ -11,6 +12,7 @@ class Home extends StatelessWidget {
         title: Text('Project Heidelberg'),
       ),
       body: _buildListView(),
+      drawer: NavigationDrawer(),
     );
   }
 
