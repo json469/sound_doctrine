@@ -17,7 +17,11 @@ class Section {
     Section(
       index: 2,
       header: 'Part I: Misery',
-      lordsDays: [],
+      lordsDays: [
+        LordsDay.getItem(2),
+        LordsDay.getItem(3),
+        LordsDay.getItem(4),
+      ],
     ),
     Section(
       index: 3,

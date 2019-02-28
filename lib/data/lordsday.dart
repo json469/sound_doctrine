@@ -19,5 +19,32 @@ class LordsDay {
         QuestionAndAnswer.getItem(2),
       ],
     ),
+    LordsDay(
+      index: 2,
+      header: "Lord's Day 2",
+      questionsAndAnswers: [
+        QuestionAndAnswer.getItem(3),
+        QuestionAndAnswer.getItem(4),
+        QuestionAndAnswer.getItem(5),
+      ],
+    ),
+    LordsDay(
+      index: 3,
+      header: "Lord's Day 3",
+      questionsAndAnswers: [
+        QuestionAndAnswer.getItem(6),
+        QuestionAndAnswer.getItem(7),
+        QuestionAndAnswer.getItem(8),
+      ],
+    ),
+    LordsDay(
+      index: 3,
+      header: "Lord's Day 3",
+      questionsAndAnswers: [
+        QuestionAndAnswer.getItem(9),
+        QuestionAndAnswer.getItem(10),
+        QuestionAndAnswer.getItem(11),
+      ],
+    ),
   ];
 }
