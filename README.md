@@ -1,5 +1,5 @@
-# Sound Doctrine
-One app to locally access the tested creeds and confessions of protestant and reformed church.
+# Sound Doctrine 
+An iOS/Android app created in Flutter to provide local access to the tested creeds, confessions and articles of the historical protestant reformed church. Currently includes: Apostle's Creed, Nicene Creed, Athanasian Creed, Heidelberg Catechism, and Belgic Confession.
 
 ## Getting Started
 
