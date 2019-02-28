@@ -8,7 +8,7 @@ class NiceneCreedPage extends StatelessWidget {
       appBar: AppBar(
         title: Text("Nicene Creed (A.D. 325)"),
       ),
-      body: Container(
+      body: SingleChildScrollView(
         padding: EdgeInsets.all(16.0),
         child: Text(NiceneCreed.item),
       ),

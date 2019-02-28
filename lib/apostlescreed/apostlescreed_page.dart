@@ -8,7 +8,7 @@ class ApostlesCreedPage extends StatelessWidget {
       appBar: AppBar(
         title: Text("Apostles' Creed"),
       ),
-      body: Container(
+      body: SingleChildScrollView(
         padding: EdgeInsets.all(16.0),
         child: Text(ApostlesCreed.item),
       ),
