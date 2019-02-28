@@ -49,7 +49,7 @@ class HeidelbergPage extends StatelessWidget {
       child: Text(
         '$title',
         style: TextStyle(
-            fontSize: 18.0, color: Colors.white, fontWeight: FontWeight.bold),
+            fontSize: 18.0, color: Colors.white, fontWeight: FontWeight.w500),
       ),
     );
   }

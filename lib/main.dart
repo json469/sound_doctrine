@@ -8,6 +8,9 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Project Heidelberg',
+      theme: ThemeData(
+        fontFamily: 'Open Sans',
+      ),
       home: Home(),
     );
   }

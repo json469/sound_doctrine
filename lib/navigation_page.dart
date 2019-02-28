@@ -85,7 +85,7 @@ Widget _buildHeader(String title) {
     child: Text(
       '$title',
       style: TextStyle(
-          fontSize: 18.0, color: Colors.white, fontWeight: FontWeight.bold),
+          fontSize: 18.0, color: Colors.white, fontWeight: FontWeight.w500),
     ),
   );
 }
