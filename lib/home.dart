@@ -7,7 +7,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Creed and Confessions',
+        title: Text('Sound Doctrine',
             style: Theme.of(context).textTheme.title),
       ),
       body: NavigationPage(),

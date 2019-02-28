@@ -3,7 +3,7 @@ import 'about.dart';
 
 const APP_LOGO = FlutterLogo(size: 32.0);
 const APP_VERSION = 'v1.0';
-const APP_NAME = 'Creed and Confessions';
+const APP_NAME = 'Sound Doctrine';
 const APP_DEVLOPER = 'by Jesse Son';
 
 class NavigationDrawer extends StatelessWidget {
