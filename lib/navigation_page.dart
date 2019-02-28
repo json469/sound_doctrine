@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'apostles_creed/apostlescreed_page.dart';
 import 'nicene_creed/nicenecreed_page.dart';
 import 'athanasian_creed/athanasiancreed_page.dart';
+import 'chalcedonian_creed/chalcedoniancreed_page.dart';
 import 'ninetyfive_theses/ninteyfivethesese_page.dart';
 import 'heidelberg_confession/heidelberg_page.dart';
 import 'belgic_confession/belgic_page.dart';
@@ -35,6 +36,10 @@ List<Widget> _buildCreedsList(BuildContext context) {
     NavigationPageItem(
       title: "Athanasian Creed (A.D. 500)",
       route: AthanasianCreedPage(),
+    ),
+    NavigationPageItem(
+      title: "Chalcedonian Creed (A.D. 451)",
+      route: ChalcedonianCreedPage(),
     ),
   ];
 
@@ -71,7 +76,9 @@ List<Widget> _buildConfessionsList(BuildContext context) {
   List<Widget> buildItems = [_buildHeader(context, 'Reformation Confessions')];
   _confessionsPageItems.forEach((navigationPage) {
     buildItems.add(ListTile(
-      title: Text('${navigationPage.title}',),
+      title: Text(
+        '${navigationPage.title}',
+      ),
       onTap: () => Navigator.push(
           context,
           MaterialPageRoute(
