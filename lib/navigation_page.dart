@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'heidelberg/heidelberg_page.dart';
 import 'apostlescreed/apostlescreed_page.dart';
 import 'nicenecreed/nicenecreed_page.dart';
+import 'athanasiancreed/athanasiancreed_page.dart';
+import 'heidelberg/heidelberg_page.dart';
 
 class NavigationPage extends StatelessWidget {
   final List<NavigationPageItem> _navigationPageItems = [
@@ -12,6 +13,10 @@ class NavigationPage extends StatelessWidget {
     NavigationPageItem(
       title: "Nicene Creed (A.D. 325)",
       route: NiceneCreedPage(),
+    ),
+    NavigationPageItem(
+      title: "Athanasian Creed (A.D. 500)",
+      route: AthanasianCreedPage(),
     ),
     NavigationPageItem(
       title: "Heidelberg Catechism (A.D. 1576)",
