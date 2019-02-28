@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'apostles_creed/apostlescreed_page.dart';
 import 'nicene_creed/nicenecreed_page.dart';
 import 'athanasian_creed/athanasiancreed_page.dart';
+import 'ninetyfive_theses/ninteyfivethesese_page.dart';
 import 'heidelberg_confession/heidelberg_page.dart';
 import 'belgic_confession/belgic_page.dart';
 
@@ -53,6 +54,10 @@ List<Widget> _buildCreedsList(BuildContext context) {
 
 List<Widget> _buildConfessionsList(BuildContext context) {
   final List<NavigationPageItem> _confessionsPageItems = [
+    NavigationPageItem(
+      title: "Ninety-five Theses (A.D. 1517)",
+      route: NinetyfiveThesesePage(),
+    ),
     NavigationPageItem(
       title: "Belgic Confession (A.D. 1561)",
       route: BelgicPage(),
