@@ -1,12 +1,17 @@
 import 'package:flutter/material.dart';
 import 'heidelberg/heidelberg_page.dart';
 import 'apostlescreed/apostlescreed_page.dart';
+import 'nicenecreed/nicenecreed_page.dart';
 
 class NavigationPage extends StatelessWidget {
   final List<NavigationPageItem> _navigationPageItems = [
     NavigationPageItem(
       title: "Apostles' Creed",
       route: ApostlesCreedPage(),
+    ),
+    NavigationPageItem(
+      title: "Nicene Creed",
+      route: NiceneCreedPage(),
     ),
     NavigationPageItem(
       title: "Heidelberg Catechism",
