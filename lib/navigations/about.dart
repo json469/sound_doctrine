@@ -13,7 +13,7 @@ class About extends StatelessWidget {
               child: Column(
                 children: <Widget>[
                   Text(
-                      'Due to the lack of API for creeds and confessional, all contents were retrieved manually from various trusted sources. Although replicated with care if there are any mistakes or typos, please contact the developer :)'),
+                      'Due to the lack of API for creeds and confessional, all contents were retrieved manually from various trusted sources. Although replicated with care, if there are any mistakes or typos please contact the developer below :)'),
                   Container(
                       width: double.maxFinite,
                       child: RaisedButton(
