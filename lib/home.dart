@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'navigation_drawer.dart';
-import 'navigation_page.dart';
+import 'navigations/navigation_drawer.dart';
+import 'navigations/navigation_page.dart';
 
 class Home extends StatelessWidget {
   @override
