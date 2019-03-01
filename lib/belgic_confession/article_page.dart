@@ -12,7 +12,7 @@ class ArticlePage extends StatelessWidget {
         title:
             Text('${article.title}', style: Theme.of(context).textTheme.title),
       ),
-      body: Container(
+      body: SingleChildScrollView(
         padding: EdgeInsets.all(16.0),
         child: Text(article.content),
       ),
