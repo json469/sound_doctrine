@@ -7,8 +7,9 @@ import '../chalcedonian_creed/chalcedoniancreed_page.dart';
 import '../counciloforange_canon/counciloforangecanon_page.dart';
 import '../second_council_of_contantionople/second_council_of_contantionople_page.dart';
 import '../ninetyfive_theses/ninteyfivethesese_page.dart';
-import '../heidelberg_confession/heidelberg_page.dart';
 import '../belgic_confession/belgic_page.dart';
+import '../heidelberg_confession/heidelberg_page.dart';
+import '../westminster_confession/westminster_confession_page.dart';
 
 class NavigationPage extends StatelessWidget {
   @override
@@ -80,6 +81,10 @@ List<Widget> _buildConfessionsList(BuildContext context) {
     NavigationPageItem(
       title: "Heidelberg Catechism (A.D. 1576)",
       route: HeidelbergPage(),
+    ),
+    NavigationPageItem(
+      title: "Westminster Confession (A.D. 1647)",
+      route: WestminsterConfessionPage(),
     ),
   ];
 
