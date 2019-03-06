@@ -17,7 +17,7 @@ class BelgicPage extends StatelessWidget {
           return StickyHeader(
             header: _buildHeader(context, BelgicConfession.item[index].title),
             content: Container(
-              padding: EdgeInsets.all(16.0),
+              padding: EdgeInsets.all(8.0),
               child: Text(BelgicConfession.item[index].content),
             ),
           );
@@ -30,7 +30,7 @@ class BelgicPage extends StatelessWidget {
     return Container(
       height: 50.0,
       color: Colors.blueGrey[700],
-      padding: EdgeInsets.symmetric(horizontal: 16.0),
+      padding: EdgeInsets.symmetric(horizontal: 8.0),
       alignment: Alignment.centerLeft,
       child: Text('$title', style: Theme.of(context).textTheme.display1),
     );

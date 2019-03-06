@@ -14,11 +14,11 @@ class ChapterPage extends StatelessWidget {
             Text('${chapter.title}', style: Theme.of(context).textTheme.title),
       ),
       body: SingleChildScrollView(
-        padding: EdgeInsets.all(16.0),
+        padding: EdgeInsets.all(8.0),
         child: Column(
           children: <Widget>[
             Container(
-              padding: EdgeInsets.all(16.0),
+              padding: EdgeInsets.all(8.0),
               child: Text(chapter.content),
             ),
             Divider(
@@ -28,7 +28,7 @@ class ChapterPage extends StatelessWidget {
               title: Text('Footnotes'),
               children: <Widget>[
                 Container(
-                  padding: EdgeInsets.all(16.0),
+                  padding: EdgeInsets.all(8.0),
                   child: Text(chapter.footnotes),
                 )
               ],

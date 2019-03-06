@@ -10,7 +10,7 @@ class NinetyfiveThesesePage extends StatelessWidget {
             style: Theme.of(context).textTheme.title),
       ),
       body: SingleChildScrollView(
-        padding: EdgeInsets.all(16.0),
+        padding: EdgeInsets.all(8.0),
         child: Text(NinetyfiveThesese.item),
       ),
     );

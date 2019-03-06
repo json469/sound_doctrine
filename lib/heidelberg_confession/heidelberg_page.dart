@@ -30,6 +30,7 @@ class HeidelbergPage extends StatelessWidget {
     List<Widget> childItems = [];
     section.lordsDays.forEach((lordsDay) {
       childItems.add(ListTile(
+        contentPadding: EdgeInsets.fromLTRB(8.0, -8.0, 8.0, -8.0),
         title: Text('${lordsDay.header}'),
         onTap: () => Navigator.push(
             context,
@@ -45,7 +46,7 @@ class HeidelbergPage extends StatelessWidget {
     return Container(
       height: 50.0,
       color: Colors.blueGrey[700],
-      padding: EdgeInsets.symmetric(horizontal: 16.0),
+      padding: EdgeInsets.symmetric(horizontal: 8.0),
       alignment: Alignment.centerLeft,
       child: Text('$title', style: Theme.of(context).textTheme.display1),
     );

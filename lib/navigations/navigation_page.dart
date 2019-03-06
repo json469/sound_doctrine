@@ -57,6 +57,7 @@ List<Widget> _buildCreedsList(BuildContext context) {
   List<Widget> buildItems = [_buildHeader(context, 'Early Christian Creeds')];
   _creedPageItems.forEach((navigationPage) {
     buildItems.add(ListTile(
+      contentPadding: EdgeInsets.only(left: 8.0),
       title: Text('${navigationPage.title}'),
       onTap: () => Navigator.push(
           context,
@@ -91,6 +92,7 @@ List<Widget> _buildConfessionsList(BuildContext context) {
   List<Widget> buildItems = [_buildHeader(context, 'Reformation Confessions')];
   _confessionsPageItems.forEach((navigationPage) {
     buildItems.add(ListTile(
+      contentPadding: EdgeInsets.only(left: 8.0),
       title: Text(
         '${navigationPage.title}',
       ),
@@ -108,7 +110,7 @@ Widget _buildHeader(BuildContext context, String title) {
   return Container(
     height: 50.0,
     color: Colors.blueGrey[700],
-    padding: EdgeInsets.symmetric(horizontal: 16.0),
+    padding: EdgeInsets.symmetric(horizontal: 8.0),
     alignment: Alignment.centerLeft,
     child: Text('$title', style: Theme.of(context).textTheme.display1),
   );

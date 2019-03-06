@@ -24,7 +24,7 @@ class LordsDayPage extends StatelessWidget {
       itemCount: qna.length,
       itemBuilder: (BuildContext context, int index) {
         return Container(
-          padding: EdgeInsets.all(16.0),
+          padding: EdgeInsets.all(8.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[

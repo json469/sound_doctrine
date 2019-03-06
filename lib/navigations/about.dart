@@ -9,7 +9,7 @@ class About extends StatelessWidget {
       ),
       body: SingleChildScrollView(
           child: Container(
-              padding: EdgeInsets.all(16.0),
+              padding: EdgeInsets.all(8.0),
               child: Column(
                 children: <Widget>[
                   Text(

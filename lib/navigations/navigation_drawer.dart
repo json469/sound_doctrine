@@ -70,7 +70,7 @@ class NavigationDrawer extends StatelessWidget {
 
   Widget _renderDrawerSubHeader(BuildContext context) {
     return Container(
-      padding: EdgeInsets.all(16.0),
+      padding: EdgeInsets.all(8.0),
       decoration: BoxDecoration(color: Colors.blueGrey[700]),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -80,7 +80,7 @@ class NavigationDrawer extends StatelessWidget {
             APP_DESCRIPTION,
             style: TextStyle(fontSize: 14.0, color: Colors.white),
           ),
-          Divider(height: 16.0),
+          Divider(height: 8.0),
           Text(
             APP_DEVLOPER,
             style: TextStyle(fontSize: 14.0, color: Colors.white),
