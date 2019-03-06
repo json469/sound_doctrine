@@ -65,6 +65,9 @@ List<Widget> _buildCreedsList(BuildContext context) {
             builder: (context) => navigationPage.route,
           )),
     ));
+    buildItems.add(Divider(
+      height: 0.0,
+    ));
   });
   return buildItems;
 }
@@ -92,7 +95,7 @@ List<Widget> _buildConfessionsList(BuildContext context) {
   List<Widget> buildItems = [_buildHeader(context, 'Reformation Confessions')];
   _confessionsPageItems.forEach((navigationPage) {
     buildItems.add(ListTile(
-      contentPadding: EdgeInsets.only(left: 8.0),
+      contentPadding: EdgeInsets.fromLTRB(8.0, -8.0, 8.0, -8.0),
       title: Text(
         '${navigationPage.title}',
       ),
@@ -101,6 +104,9 @@ List<Widget> _buildConfessionsList(BuildContext context) {
           MaterialPageRoute(
             builder: (context) => navigationPage.route,
           )),
+    ));
+    buildItems.add(Divider(
+      height: 0.0,
     ));
   });
   return buildItems;
