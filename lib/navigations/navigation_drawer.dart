@@ -41,6 +41,9 @@ class NavigationDrawer extends StatelessWidget {
               MaterialPageRoute(builder: (context) => _drawerItem.route),
             );
           }));
+      _drawerList.add(Divider(
+        height: 0.0,
+      ));
     });
 
     return ListView(
