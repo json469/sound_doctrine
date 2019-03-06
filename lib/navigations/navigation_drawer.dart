@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'about.dart';
+import 'about_page.dart';
+import 'feedback_page.dart';
 
 const APP_LOGO = FlutterLogo(size: 32.0);
 const APP_VERSION = 'v1.0';
@@ -10,7 +11,8 @@ const APP_DEVLOPER = 'Developed by Jesse Son for the glory of God alone.';
 
 class NavigationDrawer extends StatelessWidget {
   final List<DrawerItem> _drawerItems = [
-    DrawerItem('About', Icons.info, About()),
+    DrawerItem('About', Icons.info, AboutPage()),
+    DrawerItem('Feedback', Icons.feedback, FeedbackPage()),
   ];
 
   @override
