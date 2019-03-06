@@ -18,6 +18,7 @@ class NavigationPage extends StatelessWidget {
       body: SingleChildScrollView(
           child: Column(
         children: <Widget>[
+          // TODO: Update generic list with sticky header list
           Column(children: _buildCreedsList(context)),
           Column(children: _buildConfessionsList(context)),
         ],

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'about_page.dart';
 import 'feedback_page.dart';
+import 'contribute_page.dart';
 
 const APP_LOGO = FlutterLogo(size: 32.0);
 const APP_VERSION = 'v1.0';
@@ -13,6 +14,10 @@ class NavigationDrawer extends StatelessWidget {
   final List<DrawerItem> _drawerItems = [
     DrawerItem('About', Icons.info, AboutPage()),
     DrawerItem('Feedback', Icons.feedback, FeedbackPage()),
+    DrawerItem('Contribute', Icons.people, ContributePage()),
+    // TODO: Update two items below as modal... requirs separate list or HOC
+    DrawerItem('Donate', Icons.monetization_on, ContributePage()),
+    DrawerItem('Open Source', Icons.code, ContributePage()),
   ];
 
   @override
