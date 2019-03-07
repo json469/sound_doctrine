@@ -14,10 +14,12 @@ class NavigationDrawer extends StatelessWidget {
   final List<DrawerItem> _drawerItems = [
     DrawerItem('About', Icons.info, AboutPage()),
     DrawerItem('Feedback', Icons.feedback, FeedbackPage()),
+  
+    /* TODO: Update additional items
     DrawerItem('Contribute', Icons.people, ContributePage()),
-    // TODO: Update two items below as modal... requirs separate list or HOC
     DrawerItem('Donate', Icons.monetization_on, ContributePage()),
     DrawerItem('Open Source', Icons.code, ContributePage()),
+    */
   ];
 
   @override
