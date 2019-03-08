@@ -1,6 +1,10 @@
 # Custom
 /archive/
 
+# Secret
+android/key.properties
+android/app/key/key.jks
+
 # Miscellaneous
 *.class
 *.log
