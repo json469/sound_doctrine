@@ -1,4 +1,4 @@
-package com.example.sound_doctrine;
+package com.jessethetentdeveloper.sound_doctrine;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;
