@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class FeedbackPage extends StatelessWidget {
   final List<TileItem> tileItems = [
@@ -40,7 +41,7 @@ class FeedbackPage extends StatelessWidget {
             height: 60,
             color: Theme.of(context).primaryColor,
             child: Text('CONTACT', style: Theme.of(context).textTheme.button),
-            onPressed: () {},
+            onPressed: () => sendEmail('jessethetentdeveloper@gmail.com'),
           )
         ],
       ),
@@ -71,6 +72,14 @@ class FeedbackPage extends StatelessWidget {
       padding: EdgeInsets.fromLTRB(8.0, 8.0, 8.0, 24.0),
       child: Text(description, style: TextStyle(fontSize: 16.0)),
     );
+  }
+
+  sendEmail(String address) async {
+    if (await canLaunch('mailto:$address')) {
+      await launch('mailto:$address');
+    } else {
+      throw 'Could not launch mailto:$address';
+    }
   }
 }
 
