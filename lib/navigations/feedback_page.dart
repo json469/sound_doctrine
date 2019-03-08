@@ -4,19 +4,19 @@ import 'package:url_launcher/url_launcher.dart';
 class FeedbackPage extends StatelessWidget {
   final List<TileItem> tileItems = [
     TileItem(
-      title: 'Comments and Feedbacks',
+      title: 'Rating and Comments',
       description:
-          'All feedback is valuable! Whether it be simple comments or even a story of thanks giving, please feel free to send me any feedback and I will try my best to get back to you.',
+          'I will never bother you with pop-ups to rate my app or leave a reivew. But if you have any feedbacks, feel free to either email me directly or leave a rating and comment on the app store.',
     ),
     TileItem(
       title: 'Typos and Bugs',
       description:
-          'Although developed with care and love, if there be any typos or mistakes please contact me with enough details to help me aid in fixing a bug or typo.',
+          'Although developed with care and love, if there be any typos or mistakes please contact me with concise details to help me fix it.',
     ),
     TileItem(
       title: 'Feature Request',
       description:
-          'Have an improvement or additional feature that would benfit this app in mind? Please contact me with your thoughts and plans. Please bare in mind that this app was designed, developed, and is currently being maintained by one developer.\n\nThis app is open source and is public to all contributions. The llink is available in the open source page.',
+          'Have an improvement or additional features? I\'d love to hear it! \n\nPlease bare in mind that this app was designed, developed, and is currently being maintained by one developer.\n\nThis app is open source and is public to all contributions.',
     ),
   ];
 
