@@ -8,14 +8,14 @@ class FeedbackPage extends StatelessWidget {
           'All feedback is valuable! Whether it be simple comments or even a story of thanks giving, please feel free to send me any feedback and I will try my best to get back to you.',
     ),
     TileItem(
-      title: 'Bug Fix',
+      title: 'Typos and Bugs',
       description:
           'Although developed with care and love, if there be any typos or mistakes please contact me with enough details to help me aid in fixing a bug or typo.',
     ),
     TileItem(
       title: 'Feature Request',
       description:
-          'Have an improvement or additional feature that would benfit this app in mind? Please contact me with your thoughts and plans! Please bare in mind that this app was designed, developed, and is currently being maintained by one developer.\n\nThis app is open source and is public to all contributions. The llink is available in the open source page.',
+          'Have an improvement or additional feature that would benfit this app in mind? Please contact me with your thoughts and plans. Please bare in mind that this app was designed, developed, and is currently being maintained by one developer.\n\nThis app is open source and is public to all contributions. The llink is available in the open source page.',
     ),
   ];
 
@@ -39,7 +39,7 @@ class FeedbackPage extends StatelessWidget {
             minWidth: double.maxFinite,
             height: 60,
             color: Theme.of(context).primaryColor,
-            child: Text('CONTACT', style: Theme.of(context).textTheme.caption),
+            child: Text('CONTACT', style: Theme.of(context).textTheme.button),
             onPressed: () {},
           )
         ],
@@ -68,7 +68,7 @@ class FeedbackPage extends StatelessWidget {
 
   Widget _buildBody(BuildContext context, String description) {
     return Container(
-      padding: EdgeInsets.all(8.0),
+      padding: EdgeInsets.fromLTRB(8.0, 8.0, 8.0, 24.0),
       child: Text(description, style: TextStyle(fontSize: 16.0)),
     );
   }

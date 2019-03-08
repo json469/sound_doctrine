@@ -16,18 +16,25 @@ class App extends StatelessWidget {
                 fontSize: 18.0,
                 color: Colors.black87,
                 fontWeight: FontWeight.w700),
-            caption:TextStyle(
+            caption: TextStyle(
               fontSize: 14.0,
               color: Colors.white,
             ),
             title: TextStyle(
-                fontSize: 20.0,
-                fontWeight: FontWeight.w700,
-                color: Colors.white),
+              fontSize: 22.0,
+              fontWeight: FontWeight.w700,
+              color: Colors.white,
+            ),
             display1: TextStyle(
-                fontSize: 18.0,
-                color: Colors.white,
-                fontWeight: FontWeight.w700),
+              fontSize: 18.0,
+              color: Colors.white,
+              fontWeight: FontWeight.w700,
+            ),
+            button: TextStyle(
+              fontSize: 24.0,
+              fontWeight: FontWeight.w700,
+              color: Colors.white,
+            ),
           )),
       home: Home(),
     );
