@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
+
 import 'about_page.dart';
 import 'feedback_page.dart';
 
@@ -53,6 +55,16 @@ class NavigationDrawer extends StatelessWidget {
       ));
     });
 
+    // Add OpenSource modal tile
+    _drawerList.add(ListTile(
+      title: Text('Open Source'),
+      leading: Icon(
+        Icons.code,
+        color: Colors.black87,
+      ),
+      onTap: () => _launchURL('https://github.com/json469/sound_doctrine'),
+    ));
+
     return ListView(
       padding: EdgeInsets.all(0.0),
       children: _drawerList,
@@ -103,6 +115,14 @@ class NavigationDrawer extends StatelessWidget {
         ],
       ),
     );
+  }
+
+  _launchURL(String url) async {
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
+      throw 'Could not launch $url';
+    }
   }
 }
 
