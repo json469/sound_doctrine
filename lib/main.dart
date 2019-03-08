@@ -7,6 +7,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Project Heidelberg',
       theme: ThemeData(
           fontFamily: 'Open Sans',
