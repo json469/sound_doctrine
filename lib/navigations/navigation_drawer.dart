@@ -4,7 +4,6 @@ import 'package:url_launcher/url_launcher.dart';
 import 'about_page.dart';
 import 'feedback_page.dart';
 
-const APP_LOGO = FlutterLogo(size: 32.0);
 const APP_VERSION = 'v1.0';
 const APP_NAME = 'Sound Doctrine';
 const APP_DESCRIPTION =
@@ -79,8 +78,9 @@ class NavigationDrawer extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: <Widget>[
           CircleAvatar(
+            maxRadius: 35,
             backgroundColor: Colors.white,
-            child: APP_LOGO,
+            child: Image.asset('assets/images/logo/sound_doctrine.png'),
           ),
           Text(
             APP_NAME,

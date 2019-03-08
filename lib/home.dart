@@ -7,8 +7,19 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Sound Doctrine',
-            style: Theme.of(context).textTheme.title),
+        title: Row(
+          children: <Widget>[
+            CircleAvatar(
+              maxRadius: 15,
+              backgroundColor: Colors.white,
+              child: Image.asset('assets/images/logo/sound_doctrine.png'),
+            ),
+            SizedBox(
+              width: 10,
+            ),
+            Text('Sound Doctrine', style: Theme.of(context).textTheme.title),
+          ],
+        ),
       ),
       body: NavigationPage(),
       drawer: NavigationDrawer(),
