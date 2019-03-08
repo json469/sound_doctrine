@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'about_page.dart';
 import 'feedback_page.dart';
-import 'contribute_page.dart';
 
 const APP_LOGO = FlutterLogo(size: 32.0);
 const APP_VERSION = 'v1.0';
