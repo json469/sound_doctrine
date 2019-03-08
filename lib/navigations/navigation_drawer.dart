@@ -13,7 +13,7 @@ class NavigationDrawer extends StatelessWidget {
   final List<DrawerItem> _drawerItems = [
     DrawerItem('About', Icons.info, AboutPage()),
     DrawerItem('Feedback', Icons.feedback, FeedbackPage()),
-  
+
     /* TODO: Update additional items
     DrawerItem('Contribute', Icons.people, ContributePage()),
     DrawerItem('Donate', Icons.monetization_on, ContributePage()),
@@ -36,10 +36,11 @@ class NavigationDrawer extends StatelessWidget {
 
     _drawerItems.forEach((_drawerItem) {
       _drawerList.add(ListTile(
-          title: Text(_drawerItem.title),
+          title:
+              Text(_drawerItem.title, style: TextStyle(color: Colors.black87)),
           leading: Icon(
             _drawerItem.icon,
-            color: Colors.black,
+            color: Colors.black87,
           ),
           onTap: () {
             Navigator.push(
