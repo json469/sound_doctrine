@@ -8,7 +8,7 @@ import '../counciloforange_canon/counciloforangecanon_page.dart';
 import '../second_council_of_contantionople/second_council_of_contantionople_page.dart';
 import '../ninetyfive_theses/ninteyfivethesese_page.dart';
 import '../belgic_confession/belgic_page.dart';
-import '../heidelberg_confession/heidelberg_page.dart';
+import '../heidelberg_catechism/heidelberg_page.dart';
 import '../westminster_confession/westminster_confession_page.dart';
 
 class NavigationPage extends StatelessWidget {
