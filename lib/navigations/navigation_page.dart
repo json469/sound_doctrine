@@ -11,84 +11,109 @@ import '../belgic_confession/belgic_page.dart';
 import '../heidelberg_catechism/heidelberg_page.dart';
 import '../westminster_confession/westminster_confession_page.dart';
 
+final List<NavigationPageItem> _creedPageItems = [
+  NavigationPageItem(
+    title: "Apostles' Creed",
+    route: ApostlesCreedPage(),
+  ),
+  NavigationPageItem(
+    title: "Nicene Creed (A.D. 325)",
+    route: NiceneCreedPage(),
+  ),
+  NavigationPageItem(
+    title: "Athanasian Creed (A.D. 500)",
+    route: AthanasianCreedPage(),
+  ),
+  NavigationPageItem(
+    title: "Chalcedonian Creed (A.D. 451)",
+    route: ChalcedonianCreedPage(),
+  ),
+  NavigationPageItem(
+    title: "Canons on the Council of Orange (A.D. 529)",
+    route: CouncilOfOrangeCanonPage(),
+  ),
+  NavigationPageItem(
+    title: "Second Council of Constantinople (A.D. 553)",
+    route: SecondCouncilOfContantionoplePage(),
+  ),
+];
+final List<NavigationPageItem> _confessionsPageItems = [
+  NavigationPageItem(
+    title: "Belgic Confession (A.D. 1561)",
+    route: BelgicPage(),
+  ),
+  NavigationPageItem(
+    title: "Westminster Confession (A.D. 1647)",
+    route: WestminsterConfessionPage(),
+  ),
+];
+final List<NavigationPageItem> _catechismsPageItems = [
+  NavigationPageItem(
+    title: "Heidelberg Catechism (A.D. 1576)",
+    route: HeidelbergPage(),
+  ),
+];
+final List<NavigationPageItem> _otherDocumentsPageItems = [
+  NavigationPageItem(
+    title: "Ninety-five Theses (A.D. 1517)",
+    route: NinetyfiveThesesePage(),
+  ),
+];
+
+final List<NavigationCategory> _categories = [
+  NavigationCategory(
+    header: 'Creeds',
+    navigations: _creedPageItems,
+  ),
+  NavigationCategory(
+    header: 'Confessions',
+    navigations: _confessionsPageItems,
+  ),
+  NavigationCategory(
+    header: 'Catechisms',
+    navigations: _catechismsPageItems,
+  ),
+  NavigationCategory(
+    header: 'Other Documents',
+    navigations: _otherDocumentsPageItems,
+  ),
+];
+
 class NavigationPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-          child: Column(
-        children: <Widget>[
-          Column(children: _buildCreedsList(context)),
-          Column(children: _buildConfessionsList(context)),
-          Column(children: _buildCatechismsList(context)),
-          Column(children: _buildOtherDocumentsList(context)),
-        ],
-      )),
+        child: Column(
+          children: _buildCategories(context, _categories),
+        ),
+      ),
     );
   }
 }
 
-List<Widget> _buildCreedsList(BuildContext context) {
-  final List<NavigationPageItem> _creedPageItems = [
-    NavigationPageItem(
-      title: "Apostles' Creed",
-      route: ApostlesCreedPage(),
-    ),
-    NavigationPageItem(
-      title: "Nicene Creed (A.D. 325)",
-      route: NiceneCreedPage(),
-    ),
-    NavigationPageItem(
-      title: "Athanasian Creed (A.D. 500)",
-      route: AthanasianCreedPage(),
-    ),
-    NavigationPageItem(
-      title: "Chalcedonian Creed (A.D. 451)",
-      route: ChalcedonianCreedPage(),
-    ),
-    NavigationPageItem(
-      title: "Canons on the Council of Orange (A.D. 529)",
-      route: CouncilOfOrangeCanonPage(),
-    ),
-    NavigationPageItem(
-      title: "Second Council of Constantinople (A.D. 553)",
-      route: SecondCouncilOfContantionoplePage(),
-    ),
-  ];
-
-  List<Widget> buildItems = [_buildHeader(context, 'Creeds')];
-  _creedPageItems.forEach((navigationPage) {
-    buildItems.add(ListTile(
-      contentPadding: EdgeInsets.only(left: 8.0),
-      title: Text('${navigationPage.title}'),
-      onTap: () => Navigator.push(
-          context,
-          MaterialPageRoute(
-            builder: (context) => navigationPage.route,
-          )),
-    ));
-    buildItems.add(Divider(
-      height: 0.0,
+List<Widget> _buildCategories(
+    BuildContext context, List<NavigationCategory> categories) {
+  List<Widget> categoires = [];
+  categories.forEach((category) {
+    categoires.add(Column(
+      children: _buildCategory(context, category.header, category.navigations),
     ));
   });
-  return buildItems;
+  return categoires;
 }
 
-List<Widget> _buildConfessionsList(BuildContext context) {
-  final List<NavigationPageItem> _confessionsPageItems = [
-    NavigationPageItem(
-      title: "Belgic Confession (A.D. 1561)",
-      route: BelgicPage(),
-    ),
-    NavigationPageItem(
-      title: "Westminster Confession (A.D. 1647)",
-      route: WestminsterConfessionPage(),
-    ),
-  ];
-
-  List<Widget> buildItems = [_buildHeader(context, 'Confessions')];
-  _confessionsPageItems.forEach((navigationPage) {
-    buildItems.add(ListTile(
+List<Widget> _buildCategory(
+  BuildContext context,
+  String header,
+  List<NavigationPageItem> navigationPageItems,
+) {
+  // Create empty list with first element being the header
+  List<Widget> buildList = [_buildHeader(context, header)];
+  // Populate list with given page items
+  navigationPageItems.forEach((navigationPage) {
+    // Add list tile that navigates to the given page
+    buildList.add(ListTile(
       contentPadding: EdgeInsets.fromLTRB(8.0, -8.0, 8.0, -8.0),
       title: Text(
         '${navigationPage.title}',
@@ -99,77 +124,28 @@ List<Widget> _buildConfessionsList(BuildContext context) {
             builder: (context) => navigationPage.route,
           )),
     ));
-    buildItems.add(Divider(
+    // Add a divider
+    buildList.add(Divider(
       height: 0.0,
     ));
   });
-  return buildItems;
+  return buildList;
 }
 
-List<Widget> _buildCatechismsList(BuildContext context) {
-  final List<NavigationPageItem> _catechismsPageItems = [
-    NavigationPageItem(
-      title: "Heidelberg Catechism (A.D. 1576)",
-      route: HeidelbergPage(),
-    ),
-  ];
-
-  List<Widget> buildItems = [_buildHeader(context, 'Catechisms')];
-  _catechismsPageItems.forEach((navigationPage) {
-    buildItems.add(ListTile(
-      contentPadding: EdgeInsets.fromLTRB(8.0, -8.0, 8.0, -8.0),
-      title: Text(
-        '${navigationPage.title}',
-      ),
-      onTap: () => Navigator.push(
-          context,
-          MaterialPageRoute(
-            builder: (context) => navigationPage.route,
-          )),
-    ));
-    buildItems.add(Divider(
-      height: 0.0,
-    ));
-  });
-  return buildItems;
-}
-
-List<Widget> _buildOtherDocumentsList(BuildContext context) {
-  final List<NavigationPageItem> _otherDocumentsPageItems = [
-    NavigationPageItem(
-      title: "Ninety-five Theses (A.D. 1517)",
-      route: NinetyfiveThesesePage(),
-    ),
-  ];
-
-  List<Widget> buildItems = [_buildHeader(context, 'Other Documents')];
-  _otherDocumentsPageItems.forEach((navigationPage) {
-    buildItems.add(ListTile(
-      contentPadding: EdgeInsets.fromLTRB(8.0, -8.0, 8.0, -8.0),
-      title: Text(
-        '${navigationPage.title}',
-      ),
-      onTap: () => Navigator.push(
-          context,
-          MaterialPageRoute(
-            builder: (context) => navigationPage.route,
-          )),
-    ));
-    buildItems.add(Divider(
-      height: 0.0,
-    ));
-  });
-  return buildItems;
-}
-
-Widget _buildHeader(BuildContext context, String title) {
+Widget _buildHeader(BuildContext context, String header) {
   return Container(
     height: 50.0,
     color: Colors.blueGrey[700],
     padding: EdgeInsets.symmetric(horizontal: 8.0),
     alignment: Alignment.centerLeft,
-    child: Text('$title', style: Theme.of(context).textTheme.display1),
+    child: Text('$header', style: Theme.of(context).textTheme.display1),
   );
+}
+
+class NavigationCategory {
+  String header;
+  List<NavigationPageItem> navigations;
+  NavigationCategory({this.header, this.navigations});
 }
 
 class NavigationPageItem {
