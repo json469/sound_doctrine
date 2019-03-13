@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 
-import '../apostles_creed/apostlescreed_page.dart';
-import '../nicene_creed/nicenecreed_page.dart';
-import '../athanasian_creed/athanasiancreed_page.dart';
-import '../chalcedonian_creed/chalcedoniancreed_page.dart';
-import '../counciloforange_canon/counciloforangecanon_page.dart';
-import '../second_council_of_contantionople/second_council_of_contantionople_page.dart';
-import '../ninetyfive_theses/ninteyfivethesese_page.dart';
-import '../belgic_confession/belgic_page.dart';
-import '../heidelberg_catechism/heidelberg_page.dart';
-import '../westminster_confession/westminster_confession_page.dart';
+import '../creeds/apostles_creed/apostlescreed_page.dart';
+import '../creeds/athanasian_creed/athanasiancreed_page.dart';
+import '../creeds/chalcedonian_creed/chalcedoniancreed_page.dart';
+import '../creeds/nicene_creed/nicenecreed_page.dart';
+import '../councils/council_of_orange/counciloforangecanon_page.dart';
+import '../councils/second_council_of_contantionople/second_council_of_contantionople_page.dart';
+import '../confessions/belgic_confession/belgic_page.dart';
+import '../confessions/westminster_confession/westminster_confession_page.dart';
+import '../catechisms/heidelberg_catechism/heidelberg_page.dart';
+import '../other_documents/ninetyfive_theses/ninteyfivethesese_page.dart';
 
 final List<NavigationPageItem> _creedPageItems = [
   NavigationPageItem(
