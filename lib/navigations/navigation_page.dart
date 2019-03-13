@@ -20,6 +20,8 @@ class NavigationPage extends StatelessWidget {
         children: <Widget>[
           Column(children: _buildCreedsList(context)),
           Column(children: _buildConfessionsList(context)),
+          Column(children: _buildCatechismsList(context)),
+          Column(children: _buildOtherDocumentsList(context)),
         ],
       )),
     );
@@ -54,7 +56,7 @@ List<Widget> _buildCreedsList(BuildContext context) {
     ),
   ];
 
-  List<Widget> buildItems = [_buildHeader(context, 'Early Christian Creeds')];
+  List<Widget> buildItems = [_buildHeader(context, 'Creeds')];
   _creedPageItems.forEach((navigationPage) {
     buildItems.add(ListTile(
       contentPadding: EdgeInsets.only(left: 8.0),
@@ -75,16 +77,8 @@ List<Widget> _buildCreedsList(BuildContext context) {
 List<Widget> _buildConfessionsList(BuildContext context) {
   final List<NavigationPageItem> _confessionsPageItems = [
     NavigationPageItem(
-      title: "Ninety-five Theses (A.D. 1517)",
-      route: NinetyfiveThesesePage(),
-    ),
-    NavigationPageItem(
       title: "Belgic Confession (A.D. 1561)",
       route: BelgicPage(),
-    ),
-    NavigationPageItem(
-      title: "Heidelberg Catechism (A.D. 1576)",
-      route: HeidelbergPage(),
     ),
     NavigationPageItem(
       title: "Westminster Confession (A.D. 1647)",
@@ -92,8 +86,64 @@ List<Widget> _buildConfessionsList(BuildContext context) {
     ),
   ];
 
-  List<Widget> buildItems = [_buildHeader(context, 'Reformation Confessions')];
+  List<Widget> buildItems = [_buildHeader(context, 'Confessions')];
   _confessionsPageItems.forEach((navigationPage) {
+    buildItems.add(ListTile(
+      contentPadding: EdgeInsets.fromLTRB(8.0, -8.0, 8.0, -8.0),
+      title: Text(
+        '${navigationPage.title}',
+      ),
+      onTap: () => Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => navigationPage.route,
+          )),
+    ));
+    buildItems.add(Divider(
+      height: 0.0,
+    ));
+  });
+  return buildItems;
+}
+
+List<Widget> _buildCatechismsList(BuildContext context) {
+  final List<NavigationPageItem> _catechismsPageItems = [
+    NavigationPageItem(
+      title: "Heidelberg Catechism (A.D. 1576)",
+      route: HeidelbergPage(),
+    ),
+  ];
+
+  List<Widget> buildItems = [_buildHeader(context, 'Catechisms')];
+  _catechismsPageItems.forEach((navigationPage) {
+    buildItems.add(ListTile(
+      contentPadding: EdgeInsets.fromLTRB(8.0, -8.0, 8.0, -8.0),
+      title: Text(
+        '${navigationPage.title}',
+      ),
+      onTap: () => Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => navigationPage.route,
+          )),
+    ));
+    buildItems.add(Divider(
+      height: 0.0,
+    ));
+  });
+  return buildItems;
+}
+
+List<Widget> _buildOtherDocumentsList(BuildContext context) {
+  final List<NavigationPageItem> _otherDocumentsPageItems = [
+    NavigationPageItem(
+      title: "Ninety-five Theses (A.D. 1517)",
+      route: NinetyfiveThesesePage(),
+    ),
+  ];
+
+  List<Widget> buildItems = [_buildHeader(context, 'Other Documents')];
+  _otherDocumentsPageItems.forEach((navigationPage) {
     buildItems.add(ListTile(
       contentPadding: EdgeInsets.fromLTRB(8.0, -8.0, 8.0, -8.0),
       title: Text(
