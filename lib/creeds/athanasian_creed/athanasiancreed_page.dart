@@ -6,7 +6,7 @@ class AthanasianCreedPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Athanasian Creed (A.D. 500)",
+        title: Text("Athanasian Creed (500 AD)",
             style: Theme.of(context).textTheme.title),
       ),
       body: SingleChildScrollView(

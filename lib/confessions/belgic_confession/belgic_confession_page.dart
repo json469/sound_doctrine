@@ -8,7 +8,7 @@ class BelgicPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Belgic Confession (A.D. 1561)',
+        title: Text('Belgic Confession (1561)',
             style: Theme.of(context).textTheme.title),
       ),
       body: ListView.separated(

@@ -6,7 +6,7 @@ class SecondCouncilOfContantionoplePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Second Council of Constantinople (A.D. 553)",
+        title: Text("Second Council of Constantinople (553 AD)",
             style: Theme.of(context).textTheme.title),
       ),
       body: SingleChildScrollView(
