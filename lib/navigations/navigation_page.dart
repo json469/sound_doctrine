@@ -17,45 +17,45 @@ final List<NavigationPageItem> _creedPageItems = [
     route: ApostlesCreedPage(),
   ),
   NavigationPageItem(
-    title: "Nicene Creed (A.D. 325)",
+    title: "Nicene Creed (325 AD)",
     route: NiceneCreedPage(),
   ),
   NavigationPageItem(
-    title: "Athanasian Creed (A.D. 500)",
+    title: "Athanasian Creed (500 AD)",
     route: AthanasianCreedPage(),
   ),
   NavigationPageItem(
-    title: "Chalcedonian Creed (A.D. 451)",
+    title: "Chalcedonian Creed (451 AD)",
     route: ChalcedonianCreedPage(),
   ),
   NavigationPageItem(
-    title: "Canons on the Council of Orange (A.D. 529)",
+    title: "Canons on the Council of Orange (529 AD)",
     route: CouncilOfOrangeCanonPage(),
   ),
   NavigationPageItem(
-    title: "Second Council of Constantinople (A.D. 553)",
+    title: "Second Council of Constantinople (553 AD)",
     route: SecondCouncilOfContantionoplePage(),
   ),
 ];
 final List<NavigationPageItem> _confessionsPageItems = [
   NavigationPageItem(
-    title: "Belgic Confession (A.D. 1561)",
+    title: "Belgic Confession (1561)",
     route: BelgicPage(),
   ),
   NavigationPageItem(
-    title: "Westminster Confession (A.D. 1647)",
+    title: "Westminster Confession (1647)",
     route: WestminsterConfessionPage(),
   ),
 ];
 final List<NavigationPageItem> _catechismsPageItems = [
   NavigationPageItem(
-    title: "Heidelberg Catechism (A.D. 1576)",
+    title: "Heidelberg Catechism (1576)",
     route: HeidelbergPage(),
   ),
 ];
 final List<NavigationPageItem> _otherDocumentsPageItems = [
   NavigationPageItem(
-    title: "Ninety-five Theses (A.D. 1517)",
+    title: "Ninety-five Theses (1517s)",
     route: NinetyfiveThesesePage(),
   ),
 ];
