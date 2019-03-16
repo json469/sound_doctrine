@@ -1,5 +1,5 @@
 import 'article.dart';
 
 class BelgicConfession {
-  static final item = Article.items;
+  static final items = Article.items;
 }
