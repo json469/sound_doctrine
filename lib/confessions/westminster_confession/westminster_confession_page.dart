@@ -8,7 +8,7 @@ class WestminsterConfessionPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Westminster Confession (A.D. 1647)',
+        title: Text('Westminster Confession (1647)',
             style: Theme.of(context).textTheme.title),
       ),
       body: ListView.separated(

@@ -6,7 +6,7 @@ class CouncilOfOrangeCanonPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Canons on the Council of Orange (A.D. 529)",
+        title: Text("Canons on the Council of Orange (529 AD)",
             style: Theme.of(context).textTheme.title),
       ),
       body: SingleChildScrollView(

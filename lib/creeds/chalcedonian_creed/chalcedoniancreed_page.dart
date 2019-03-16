@@ -6,7 +6,7 @@ class ChalcedonianCreedPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Chalcedonian Creed (A.D. 451)",
+        title: Text("Chalcedonian Creed (451 AD)",
             style: Theme.of(context).textTheme.title),
       ),
       body: SingleChildScrollView(
