@@ -11,7 +11,7 @@ import '../confessions/westminster_confession/westminster_confession_page.dart';
 import '../catechisms/heidelberg_catechism/heidelberg_page.dart';
 import '../other_documents/ninetyfive_theses/ninteyfivethesese_page.dart';
 
-final List<NavigationPageItem> _creedPageItems = [
+final List<NavigationPageItem> _creedsPageItems = [
   NavigationPageItem(
     title: "Apostles' Creed",
     route: ApostlesCreedPage(),
@@ -28,6 +28,8 @@ final List<NavigationPageItem> _creedPageItems = [
     title: "Chalcedonian Creed (451 AD)",
     route: ChalcedonianCreedPage(),
   ),
+];
+final List<NavigationPageItem> _councilsPageItems = [
   NavigationPageItem(
     title: "Canons on the Council of Orange (529 AD)",
     route: CouncilOfOrangeCanonPage(),
@@ -63,7 +65,11 @@ final List<NavigationPageItem> _otherDocumentsPageItems = [
 final List<NavigationCategory> _categories = [
   NavigationCategory(
     header: 'Creeds',
-    navigations: _creedPageItems,
+    navigations: _creedsPageItems,
+  ),
+  NavigationCategory(
+    header: 'Councils',
+    navigations: _councilsPageItems,
   ),
   NavigationCategory(
     header: 'Confessions',
