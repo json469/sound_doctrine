@@ -57,7 +57,7 @@ final List<NavigationPageItem> _catechismsPageItems = [
 ];
 final List<NavigationPageItem> _otherDocumentsPageItems = [
   NavigationPageItem(
-    title: "Ninety-five Theses (1517s)",
+    title: "Ninety-five Theses (1517)",
     route: NinetyfiveThesesePage(),
   ),
 ];
