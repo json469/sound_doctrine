@@ -6,7 +6,7 @@ class NinetyfiveThesesePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Ninety-five Theses (A.D. 1517)",
+        title: Text("Ninety-five Theses (1517)",
             style: Theme.of(context).textTheme.title),
       ),
       body: SingleChildScrollView(
