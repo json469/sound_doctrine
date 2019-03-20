@@ -8,7 +8,7 @@ const APP_VERSION = 'v1.0';
 const APP_NAME = 'Sound Doctrine';
 const APP_DESCRIPTION =
     'An offline library app of the creeds, confessions and catechisms of the protestant reformed churches.';
-const APP_DEVLOPER = 'Developed by Jesse Son for the glory of God alone.';
+const APP_DEVLOPER = 'Developed by Jesse for the glory of God alone.';
 
 class NavigationDrawer extends StatelessWidget {
   final List<DrawerItem> _drawerItems = [
