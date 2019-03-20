@@ -16,7 +16,7 @@ class FeedbackPage extends StatelessWidget {
     TileItem(
       title: 'Feature Request',
       description:
-          'This app is open source and is open to anyone for contributions.',
+          'This app is open source and is public for anyone to contribute.',
     ),
   ];
 
