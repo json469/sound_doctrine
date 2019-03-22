@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sticky_headers/sticky_headers.dart';
+import 'package:auto_size_text/auto_size_text.dart';
 
 import './data/heidelberg.dart';
 import './data/section.dart';
@@ -10,8 +11,12 @@ class HeidelbergPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Heidelberg Catechism (1576)',
-            style: Theme.of(context).textTheme.title),
+        title: AutoSizeText(
+          'Heidelberg Catechism (1576)',
+          style: Theme.of(context).textTheme.title,
+          maxLines: 1,
+          maxFontSize: 20,
+        ),
       ),
       body: ListView.builder(
         itemCount: Heidelberg.items.length ?? 0,
