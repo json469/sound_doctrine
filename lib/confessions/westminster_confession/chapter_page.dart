@@ -14,7 +14,7 @@ class ChapterPage extends StatelessWidget {
         title: AutoSizeText(
           '${chapter.title}',
           style: Theme.of(context).textTheme.title,
-          maxLines: 1,
+          maxLines: 2,
           maxFontSize: 20,
         ),
       ),

@@ -14,7 +14,7 @@ class ArticlePage extends StatelessWidget {
         title: AutoSizeText(
           '${article.title}',
           style: Theme.of(context).textTheme.title,
-          maxLines: 1,
+          maxLines: 2,
           maxFontSize: 20,
         ),
       ),
