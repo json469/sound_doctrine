@@ -469,7 +469,7 @@ class QuestionAndAnswer {
   	  index: 77,
   	  question: "77. Where has Christ promised that He will nourish and refresh believers with His body and blood as surely as they eat of this broken bread and drink of this cup?",
   	  answer:
-  		  "In the institution of the Lord's supper: The Lord Jesus on the night when He was betrayed took bread, and when He had given thanks, He broke it and said, "This is my body which is for you.  Do this in remembrance of me."  In the same way also the cup, after supper, saying, "Do this, as often as you drink it, in remembrance of me." For as often as you eat this bread and drink the cup, you proclaim the Lord's death until He comes (I Corinthians 11:23-26).  This promise is repeated by Paul where he says: The cup of blessing which we bless, is it not a participation in the blood of Christ?  The bread which we break, is it not a participation in the body of Christ?  Because there is one bread, we who are many are one body, for we all partake of the one bread (I Corinthians 10:16, 17).",
+  		  'In the institution of the Lord\'s supper: The Lord Jesus on the night when He was betrayed took bread, and when He had given thanks, He broke it and said, \"This is my body which is for you.  Do this in remembrance of me."  In the same way also the cup, after supper, saying, "Do this, as often as you drink it, in remembrance of me." For as often as you eat this bread and drink the cup, you proclaim the Lord\'s death until He comes (I Corinthians 11:23-26).  This promise is repeated by Paul where he says: The cup of blessing which we bless, is it not a participation in the blood of Christ?  The bread which we break, is it not a participation in the body of Christ?  Because there is one bread, we who are many are one body, for we all partake of the one bread (I Corinthians 10:16, 17).',
   	),
   	QuestionAndAnswer(
   	  index: 78,
@@ -531,7 +531,9 @@ class QuestionAndAnswer {
   	  answer:
   		  "By no means. Scripture says that no unchaste person, idolater, adulterer, thief, greedy person, drunkard, slanderer, robber, or the like shall inherit the kingdom of God.",
   	),
-  88  What is the true repentance or conversion of man?
+		QuestionAndAnswer(
+  		index: 88,
+			question: "88. What is the true repentance or conversion of man?",
   	  answer:
   		  "It is the dying of the old nature and the coming to life of the new.",
   	),
@@ -591,7 +593,7 @@ class QuestionAndAnswer {
   	),
   	QuestionAndAnswer(
   	  index: 98,
-  	  question: "98. But may images not be tolerated in the churches as "books for the laity"?",
+  	  question: '98. But may images not be tolerated in the churches as "books for the laity"?',
   	  answer:
   		  "No, for we should not be wiser than God.  He wants His people to be taught not by means of dumb images but by the living preaching of His Word.",
   	),
