@@ -9,851 +9,777 @@ class QuestionAndAnswer {
   }
 
   static List<QuestionAndAnswer> _items = [
-    QuestionAndAnswer(
-      index: 1,
-      question: "1. What is thy only comfort in life and in death?",
-      answer:
-          "That I, with body and soul, both in life and in death, am not my own, but belong to my faithful Savior Jesus Christ, who with His precious blood has fully satisfied for all my sins, and redeemed me from all the power of the devil; and so preserves me, that without the will of my Father in heaven not a hair can fall from my head; yea, that all things must work together for my salvation. Wherefore, by His Holy Spirit, He also assures me of eternal life, and makes me heartily willing and ready henceforth to live unto Him. ",
-    ),
-    QuestionAndAnswer(
-      index: 2,
-      question:
-          "2. How many things are necessary for thee to know, that thou in this comfort mayest live and die happily?",
-      answer:
-          "Three things: first, the greatness of my sin and misery. Second, how I am redeemed from all my sins and misery. Third, how I am to be thankful to God for such redemption.",
-    ),
-    QuestionAndAnswer(
-      index: 3,
-      question: "3. Whence knowest thou thy misery?",
-      answer: "Out of the Law of God.",
-    ),
-    QuestionAndAnswer(
-      index: 4,
-      question: "4. What does the Law of God require of us?",
-      answer:
-          "Christ teaches us in sum, Matthew 22:37–40, “Thou shalt love the Lord, thy God with all thy heart, and with all thy soul, and with all thy mind, and with all thy strength. This is the first and great commandment; and the second is like unto it: Thou shalt love thy neighbor as thyself. On these two commandments hang all the law and the prophets.”",
-    ),
-    QuestionAndAnswer(
-      index: 5,
-      question: "5. Canst thou keep all this perfectly?",
-      answer: "No; for I am by nature prone to hate God and my neighbor.",
-    ),
-    QuestionAndAnswer(
-      index: 6,
-      question: "6. Did God create man thus wicked and perverse?",
-      answer:
-          "No; but God created man good, and after His own image, that is, in righteousness and true holiness; that he might rightly know God his Creator, heartily love Him, and live with Him in eternal blessedness, to praise and glorify Him.",
-    ),
-    QuestionAndAnswer(
-      index: 7,
-      question: "7. Whence then comes this depraved nature of man?",
-      answer:
-          "From the fall and disobedience of our first parents, Adam and Eve, in Paradise, whereby our nature became so corrupt, that we are all conceived and born in sin.",
-    ),
-    QuestionAndAnswer(
-      index: 8,
-      question:
-          "8. But are we so depraved, that we are wholly unapt to any good and prone to all evil?",
-      answer: "Yes; unless we are born again by the Spirit of God.",
-    ),
-    QuestionAndAnswer(
-      index: 9,
-      question:
-          "9. Does not God then wrong man, by requiring of him in His law that which he cannot perform?",
-      answer:
-          "No; for God so made man, that he could perform it; but man, through the instigation of the devil, by wilful disobedience deprived himself and all his posterity of this power.",
-    ),
-    QuestionAndAnswer(
-      index: 10,
-      question:
-          "10. Will God suffer such disobedience and apostasy to go unpunished?",
-      answer:
-          "By no means; but He is terribly displeased with our inborn as well as our actual sins, and will punish them in just judgment in time and eternity, as he has declared: Cursed is everyone that continueth not in all things which are written in the book of the law, to do them (Deut. 27:26).",
-    ),
-    QuestionAndAnswer(
-      index: 11,
-      question: "11. Is then God not merciful? ",
-      answer:
-          "God is indeed merciful, but He is likewise just; wherefore His justice requires that sin, which is committed against the most high majesty of God, be also punished with extreme, that is, with everlasting punishment both of body and soul.",
-    ),
-    QuestionAndAnswer(
-      index: 12,
-      question:
-          "12. Since then, by the righteous judgment of God, we deserve temporal and eternal punishment, what is required that we may escape this punishment and be again received into favor?",
-      answer:
-          "God wills that His justice be satisfied, therefore we must make full satisfaction to the same, either by ourselves or by another.",
-    ),
-    QuestionAndAnswer(
-      index: 13,
-      question: "13. Can we ourselves make this satisfaction?",
-      answer: "By no means: on the contrary, we daily increase our guilt",
-    ),
-    QuestionAndAnswer(
-      index: 14,
-      question: "14. Can any mere creature make satisfaction for us?",
-      answer:
-          "None: for first, God will not punish, in any other creature, that of which man has made himself guilty; and further, no mere creature can sustain the burden of God’s eternal wrath against sin, and redeem others therefrom.",
-    ),
-    QuestionAndAnswer(
-      index: 15,
-      question: "15. What manner of mediator and redeemer then must we seek?",
-      answer:
-          "One who is a true and sinless man, and yet more powerful than all creatures, that is, one who is at the same time true God.",
-    ),
-    QuestionAndAnswer(
-      index: 16,
-      question: "16. Why must He be a true and sinless man?",
-      answer:
-          "Because the justice of God requires, that the same human nature which has sinned should make satisfaction for sin; but no man, being himself a sinner, could satisfy for others.",
-    ),
-    QuestionAndAnswer(
-      index: 17,
-      question: "17. Why must He be at the same time true God?",
-      answer:
-          "That by the power of His Godhead He might bear in His manhood the burden of God’s wrath and so obtain for and restore to us righteousness and life.",
-    ),
-    QuestionAndAnswer(
-      index: 18,
-      question:
-          "18. But who now is that Mediator, who is at the same time true God and a true, sinless man?",
-      answer:
-          "Our Lord Jesus Christ, who is freely given unto us for complete redemption and righteousness.",
-    ),
-    QuestionAndAnswer(
-      index: 19,
-      question: "19. Whence knowest thou this?",
-      answer:
-          "From the Holy Gospel: which God Himself first revealed in Paradise; afterwards proclaimed by the holy Patriarchs and Prophets, and foreshadowed by the sacrifices and other ceremonies of the law; and finally fulfilled by His well-beloved Son.",
-    ),
-    QuestionAndAnswer(
-      index: 20,
-      question:
-          "20. Are all men then saved by Christ, as they have perished in Adam?",
-      answer:
-          "No; only such as by true faith are ingrafted into Him, and receive all His benefits.",
-    ),
-    QuestionAndAnswer(
-      index: 21,
-      question: "21. What is true faith?",
-      answer:
-          "It is not only a certain knowledge, whereby I hold for truth all that God has revealed to us in His Word; but also a hearty trust, which the Holy Ghost works in me by the Gospel, that not only to others, but to me also, forgiveness of sins, everlasting righteousness and salvation, are freely given by God, merely of grace, for the sake of Christ’s merits",
-    ),
-    QuestionAndAnswer(
-      index: 22,
-      question: "22. What is then necessary for a Christian to believe?",
-      answer:
-          "All that is promised us in the Gospel, which the articles of our catholic, undoubted Christian faith teach us in sum",
-    ),
-    QuestionAndAnswer(
-      index: 23,
-      question: "23. What are these Articles?",
-      answer:
-          "I believe in God the Father Almighty, Maker of heaven and earth.\n\nAnd in Jesus Christ, His only begotten Son, our Lord: who was conceived by the Holy Ghost, born of the virgin Mary; suffered under Pontius Pilate, was crucified, dead and buried; He descended into hell; the third day He rose from the dead; He ascended into heaven, and sitteth at the right hand of God the Father Almighty; from thence He shall come to judge the quick and the dead.\n\nI believe in the Holy Ghost; the holy catholic Church; the communion of saints; the forgiveness of sins; the resurrection of the body, and the life everlasting.",
-    ),
-    QuestionAndAnswer(
-      index: 24,
-      question: "24. How are these articles divided?",
-      answer:
-          "Into three parts: the first is of God the Father, and our creation; the second, of God the Son, and our redemption; the third, of God the Holy Ghost, and our sanctification",
-    ),
-    QuestionAndAnswer(
-      index: 25,
-      question:
-          "25. Since there is but one Divine Being, why speakest thou of three, Father, Son and Holy Ghost?",
-      answer:
-          "Because God has so revealed Himself in His Word, that these three distinct Persons are the one, true, eternal God",
-    ),
-    QuestionAndAnswer(
-      index: 26,
-      question:
-          "26. What dost thou believe when thou sayest: I believe in God the Father Almighty, Maker of heaven and earth?",
-      answer:
-          "That the eternal Father of our Lord Jesus Christ, who of nothing made heaven and earth, with all that in them is, who likewise upholds and governs the same by His eternal counsel and providence, is for the sake of Christ His Son my God and my Father; in whom I so trust, as to have no doubt that He will provide me with all things necessary for body and soul; and further, that whatever evil He sends upon me in this vale of tears He will turn to my good; for He is able to do it, being Almighty God, and willing also, being a faithful Father.",
-    ),
-    QuestionAndAnswer(
-      index: 27,
-      question: "27. What dost thou understand by the Providence of God?",
-      answer:
-          "The almighty everywhere present power of God, whereby, as it were by His hand, He still upholds heaven and earth, with all creatures; and so governs them, that herbs and grass, rain and drought, fruitful and barren years, meat and drink, health and sickness, riches and poverty, yea, all things, come not by chance, but by His fatherly hand",
-    ),
-    QuestionAndAnswer(
-      index: 28,
-      question:
-          "28. What does it profit us to know that God has created, and by His providence still upholds all things?",
-      answer:
-          "That we may be patient in adversity; thankful in prosperity; and for what is future, have good confidence in our faithful God and Father, that no creature shall separate us from His love; since all creatures are so in His hand, that without His will they cannot so much as move",
-    ),
-    QuestionAndAnswer(
-      index: 29,
-      question: "29. Why is the Son of God called Jesus, that is, Savior?",
-      answer:
-          "Because He saves us from our sins; and no salvation is to be either sought or found in any other",
-    ),
-    QuestionAndAnswer(
-      index: 30,
-      question:
-          "30. Do such then believe in the only Savior Jesus, who seek their salvation and welfare of saints, of themselves, or anywhere else?",
-      answer:
-          "No; although they may make their boast of Him, yet in act they deny the only Savior Jesus. For either Jesus is not a complete Savior, or they who by true faith receive this Savior, must have in Him all that is necessary to their salvation.",
-    ),
-    QuestionAndAnswer(
-      index: 31,
-      question: "31. Why is He called Christ, that is, Anointed?",
-      answer:
-          "Because He is ordained of God the Father, and anointed with the Holy Ghost, to be our chief Prophet and Teacher, who fully reveals to us the secret counsel and will of God concerning our redemption; and our only High Priest, who by the one sacrifice of His body has redeemed us, and ever liveth to make intercession for us with the Father; and our eternal King, who governs us by His Word and Spirit, and defends and preserves us in the redemption obtained for us.",
-    ),
-    QuestionAndAnswer(
-      index: 32,
-      question: "32. But why art thou called a Christian?",
-      answer:
-          "Because by faith I am a member of Christ, and thus a partaker of His anointing; in order that I also may confess His name; may present myself a living sacrifice of thankfulness to Him; and may with free conscience fight against sin and the devil in this life, and hereafter, in eternity, reign with Him over all creatures.",
-    ),
-    QuestionAndAnswer(
-      index: 33,
-      question:
-          "33. Why is He called God’s only begotten Son, since we also are the children of God?",
-      answer:
-          "Because Christ alone is the eternal, natural Son of God; but we are the children of God by adoption through grace for His sake.",
-    ),
-    QuestionAndAnswer(
-      index: 34,
-      question: "34. Why callest thou Him our Lord?",
-      answer:
-          "Because, not with silver and gold, but with His precious blood, He has redeemed and purchased us, body and soul, from sin and from all the power of the devil, to be His own.",
-    ),
-    QuestionAndAnswer(
-      index: 35,
-      question:
-          "35. What is the meaning of: Conceived by the Holy Ghost, born of the virgin Mary?",
-      answer:
-          "That the eternal Son of God, who is and continues true and eternal God, took upon Him the very nature of man, of the flesh and blood of the virgin Mary, by the operation of the Holy Ghost; so that He also might be the true seed of David, like unto His brethren in all things, sin excepted.",
-    ),
-    QuestionAndAnswer(
-      index: 36,
-      question:
-          "36. What benefit dost thou receive from the holy conception and birth of Christ?",
-      answer:
-          "That He is our Mediator, and with His innocence and perfect holiness covers, in the sight of God, my sin, wherein I was conceived.",
-    ),
-    QuestionAndAnswer(
-      index: 37,
-      question: "37. What dost thou understand by the word: Suffered?",
-      answer:
-          "That all the time He lived on earth, but especially at the end of His life, He bore, in body and soul, the wrath of God against the sin of the whole human race; in order that by His passion, as the only propitiatory sacrifice, He might redeem our body and soul from everlasting damnation, and obtain for us the grace of God, righteousness, and eternal life",
-    ),
-    QuestionAndAnswer(
-      index: 38,
-      question: "38. Why did He suffer under Pontius Pilate, as judge?",
-      answer:
-          "That He, being innocent, might be condemned by the temporal judge, and thereby deliver us from the severe judgment of God, to which we are exposed",
-    ),
-    QuestionAndAnswer(
-      index: 39,
-      question:
-          "39. Is there anything more in His having been crucified, than if He had died some other death?",
-      answer:
-          "Yes: for thereby I am assured, that He took on Himself the curse which lay upon me; because the death of the cross was accursed of God.",
-    ),
-    QuestionAndAnswer(
-      index: 40,
-      question: "40. Why was it necessary for Christ to suffer death?",
-      answer:
-          "Because, by reason of the justice and truth of God, satisfaction for our sins could be made no otherwise than by the death of the Son of God",
-    ),
-    QuestionAndAnswer(
-      index: 41,
-      question: "41. Why was He buried?",
-      answer: "To show thereby that He was really dead",
-    ),
-    QuestionAndAnswer(
-      index: 42,
-      question: "42. Since then Christ died for us, why must we also die?",
-      answer:
-          "Our death is not a satisfaction for our sin, but only a dying to sins and entering into eternal life",
-    ),
-    QuestionAndAnswer(
-      index: 43,
-      question:
-          "43. What further benefit do we receive from the sacrifice and death of Christ on the cross?",
-      answer:
-          "That by His power our old man is with Him crucified, slain and buried; that so the evil lusts of the flesh may no more reign in us, but that we may offer ourselves unto Him a sacrifice of thanksgiving",
-    ),
-    QuestionAndAnswer(
-      index: 44,
-      question: "44. Why is it added: He descended into Hell?",
-      answer:
-          "That in my greatest temptations I may be assured that Christ, my Lord, by His inexpressible anguish, pains and terrors, which He suffered in His soul on the cross and before, has redeemed me from the anguish and torment of hell",
-    ),
-    QuestionAndAnswer(
-      index: 45,
-      question:
-          "45. What benefit do we receive from the Resurrection of Christ?",
-      answer:
-          "First, by His resurrection He has overcome death, that He might make us partakers of the righteousness which by His death He has obtained for us. Secondly, we also are now by His power raised up to a new life. Thirdly, the resurrection of Christ is to us a sure pledge of our blessed resurrection.",
-    ),
-    QuestionAndAnswer(
-      index: 46,
-      question:
-          "46. How dost thou understand the words: He ascended into Heaven?",
-      answer:
-          "That Christ, in sight of His disciples, was taken up from the earth into heaven; and in our behalf there continues, until He shall come again to judge the living and the dead",
-    ),
-    QuestionAndAnswer(
-      index: 47,
-      question:
-          "47. Is not then Christ with us even unto the end of the world, as He has promised?",
-      answer:
-          "Christ is true Man and true God: according to His human nature, He is now not on earth; but according to His Godhead, majesty, grace, and Spirit, He is at no time absent from us",
-    ),
-    QuestionAndAnswer(
-      index: 48,
-      question:
-          "48. But are not, in this way, the two natures in Christ separated from one another, if the Manhood be not wherever the Godhead is?",
-      answer:
-          "By no means; for since the Godhead is incomprehensible and everywhere present, it must follow that it is indeed beyond the bounds of the Manhood, which it has assumed, but is yet nonetheless in the same also, and remains personally united to it",
-    ),
-    QuestionAndAnswer(
-      index: 49,
-      question:
-          "49. What benefit do we receive from Christ’s ascension into heaven?",
-      answer:
-          "First, that He is our Advocate in the presence of His Father in heaven. Secondly, that we have our flesh in heaven, as a sure pledge, that He, as the Head, will also take us, His members, up to Himself. Thirdly, that He sends us His Spirit, as an earnest, by whose power we seek those things which are above, where Christ sitteth on the right hand of God, and not things on the earth",
-    ),
-    QuestionAndAnswer(
-      index: 50,
-      question: "50. Why is it added: And sitteth at the right hand of God?",
-      answer:
-          "Because Christ ascended into heaven for this end, that He might there appear as Head of His Church, by whom the Father governs all things",
-    ),
-    QuestionAndAnswer(
-      index: 51,
-      question:
-          "51. What benefit do we receive from this glory of our Head, Christ?",
-      answer:
-          "First, that by His Holy Spirit He sheds forth heavenly gifts in us, His members; then, that by His power He defends and preserves us against all enemies",
-    ),
-    QuestionAndAnswer(
-      index: 52,
-      question:
-          "52. What comfort is it to thee, that Christ shall come again to judge the quick and the dead?",
-      answer:
-          "That in all my sorrows and persecutions, with uplifted head, I look for the selfsame One, who has before offered Himself for me to the judgment of God and removed from me all curse, to come again as Judge from heaven; who shall cast all His and my enemies into everlasting condemnation, but shall take me, with all His chosen ones, to Himself into heavenly joy and glory",
-    ),
-    QuestionAndAnswer(
-      index: 53,
-      question: "53. What dost thou believe concerning the Holy Ghost?",
-      answer:
-          "First, that He is co-eternal God with the Father and the Son. Secondly, that He is also given unto me; makes me by a true faith partaker of Christ and all His benefits; comforts me; and shall abide with me forever",
-    ),
-    QuestionAndAnswer(
-      index: 54,
-      question:
-          "54. What dost thou believe concerning the Holy Catholic Church?",
-      answer:
-          "That, out of the whole human race, from the beginning to the end of the world, the Son of God, by His Spirit and Word, gathers, defends and preserves for Himself unto everlasting life, a chosen communion, in the unity of the true faith; and that I am, and forever shall remain, a living member of the same",
-    ),
-    QuestionAndAnswer(
-      index: 55,
-      question: "55. What dost thou understand by the Communion of Saints?",
-      answer:
-          "First, that believers, all and every one, as members of Christ have part in Him and in all His treasures and gifts; secondly, that each one must feel himself bound to use his gifts, readily and cheerfully, for the advantage and welfare of other members",
-    ),
-    QuestionAndAnswer(
-      index: 56,
-      question:
-          "56. What dost thou believe concerning the Forgiveness of Sins?",
-      answer:
-          "That God, for the sake of Christ’s satisfaction, will no more remember my sins, neither the sinful nature with which I have to struggle all my life long; but graciously imputes to me the righteousness of Christ, that I may nevermore come into condemnation",
-    ),
-    QuestionAndAnswer(
-      index: 57,
-      question:
-          "57. What comfort does the Resurrection of the Body afford thee?",
-      answer:
-          "That not only my soul, after this life, shall be immediately taken up to Christ its Head; but also that this my body, raised by the power of Christ, shall again be united with my soul, and made like unto the glorious body of Christ",
-    ),
-    QuestionAndAnswer(
-      index: 58,
-      question:
-          "58. What comfort hast thou from the article of the Life Everlasting?",
-      answer:
-          "That, inasmuch as I now feel in my heart the beginning of eternal joy, I shall after this life possess complete bliss, such as eye hath not seen, nor ear heard, neither hath entered into the heart of man; therein to praise God for ever",
-    ),
-    QuestionAndAnswer(
-      index: 59,
-      question:
-          "59. But what does it help thee now, that thou believest all this?",
-      answer:
-          "That I am righteous in Christ before God, and an heir of eternal life",
-    ),
-    QuestionAndAnswer(
-      index: 60,
-      question: "60. How art thou righteous before God?",
-      answer:
-          "Only by true faith in Jesus Christ. That is: although my conscience accuse me, that I have grievously sinned against all the commandments of God, and have never kept any of them, and that I am still prone always to all evil, yet God, without any merit of mine, of mere grace, grants and imputes to me the perfect satisfaction, righteousness and holiness of Christ, as if I had never committed nor had any sin, and had myself accomplished all the obedience which Christ has fulfilled for me, if only I accept such benefit with a believing heart",
-    ),
-    QuestionAndAnswer(
-      index: 61,
-      question: "61. Why sayest thou, that thou art righteous only by faith?",
-      answer:
-          "Not that I am acceptable to God on account of the worthiness of my faith; but because only the satisfaction, righteousness and holiness of Christ is my righteousness before God, and I can receive the same and make it my own in no other way than by faith only",
-    ),
-    QuestionAndAnswer(
-      index: 62,
-      question:
-          "62. But why cannot our good works be the whole or part of our righteousness before God?",
-      answer:
-          "Because the righteousness which can stand before the judgment-seat of God must be perfect throughout and wholly conformable to the divine law; whereas even our best works in this life are all imperfect and defiled with sin",
-    ),
-    QuestionAndAnswer(
-      index: 63,
-      question:
-          "63. How is it that our good works merit nothing, while yet it is God’s will to reward them in this life and in that which is to come?",
-      answer: "The reward comes not of merit, but of grace",
-    ),
-    QuestionAndAnswer(
-      index: 64,
-      question: "64. But does not this doctrine make men careless and profane?",
-      answer:
-          "No, for it is impossible that those who are implanted into Christ by true faith, should not bring forth fruits of thankfulness",
-    ),
-    QuestionAndAnswer(
-      index: 65,
-      question:
-          "65. Since then we are made partakers of Christ and all his benefits by faith only, whence comes this faith?",
-      answer:
-          "The Holy Ghost works it in our hearts by the preaching of the Gospel, and confirms it by the use of the Holy Sacraments",
-    ),
-    QuestionAndAnswer(
-      index: 66,
-      question: "66. What are the Sacraments?",
-      answer:
-          "The Sacraments are visible, holy signs and seals, appointed by God for this end, that by the use thereof He may the more fully declare and seal to us the promise of the Gospel: namely, that He grants us out of free grace the forgiveness of sins and everlasting life, for the sake of the one sacrifice of Christ accomplished on the cross",
-    ),
-    QuestionAndAnswer(
-      index: 67,
-      question:
-          "67. Are both these, then, the Word and the Sacraments, designed to direct our faith to the sacrifice of Jesus Christ on the cross, as the only ground of our salvation?",
-      answer:
-          "Yes truly; for the Holy Ghost teaches in the Gospel, and by the Holy Sacraments assures us, that our whole salvation stands in the one sacrifice of Christ made for us on the cross",
-    ),
-    QuestionAndAnswer(
-      index: 68,
-      question:
-          "68. How many Sacraments has Christ appointed in the New Testament?",
-      answer: "Two: Holy Baptism and the Holy Supper",
-    ),
-    QuestionAndAnswer(
-      index: 69,
-      question:
-          "69. How is it signified and sealed unto thee in Holy Baptism, that thou has part in the one sacrifice of Christ on the cross?",
-      answer:
-          "Thus: that Christ has appointed this outward washing with water, and has joined therewith this promise, that I am washed with His blood and Spirit from the pollution of my soul, that is, from all my sins, as certainly, as I am washed outwardly with water, whereby commonly the filthiness of the body is taken away",
-    ),
-    QuestionAndAnswer(
-      index: 70,
-      question:
-          "70. What is it to be washed with the blood and Spirit of Christ?",
-      answer:
-          "It is to have the forgiveness of sins from God, through grace, for the sake of Christ’s blood, which He shed for us in His sacrifice on the cross; and also, to be renewed by the Holy Ghost, and sanctified to be members of Christ, that so we may more and more die unto sin, and lead holy and unblamable lives",
-    ),
-    QuestionAndAnswer(
-      index: 71,
-      question:
-          "71. Where has Christ promised that we are as certainly washed with His blood and Spirit as with the water of Baptism?",
-      answer:
-          "In the institution of Baptism, which runs thus: Go ye, therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost. He that believeth and is baptized shall be saved; but he that believeth not shall be damned. This promise is also repeated where the Scripture calls Baptism the washing of regeneration and the washing away of sins",
-    ),
-    QuestionAndAnswer(
-      index: 72,
-      question:
-          "72. Is then the outward washing with water itself the washing away of sins?",
-      answer:
-          "No; for only the blood of Jesus Christ and the Holy Spirit cleanse us from all sin",
-    ),
-    QuestionAndAnswer(
-      index: 73,
-      question:
-          "73. Why, then, doth the Holy Ghost call Baptism the washing of regeneration, and the washing away of sins?",
-      answer:
-          "God speaks thus not without great cause: namely, not only to teach us thereby that like as the filthiness of the body is taken away by water, so our sins also are taken away by the blood and Spirit of Christ; but much more, that by this divine pledge and token He may assure us, that we are as really washed from our sins spiritually, as our bodies are washed with water",
-    ),
-    QuestionAndAnswer(
-      index: 74,
-      question: "74. Are infants also to be baptized?",
-      answer:
-          "Yes. For since they, as well as their parents, belong to the covenant and people of God, and both redemption from sin and the Holy Ghost, who works faith, are through the blood of Christ promised to them no less than to their parents: they are also by Baptism, as a sign of the covenant, to be ingrafted into the Christian Church, and distinguished from the children of unbelievers, as was done in the Old Testament by Circumcision, in place of which in the New Testament Baptism is appointed",
-    ),
-    QuestionAndAnswer(
-      index: 75,
-      question:
-          "75. How is it signified and sealed unto thee in the Holy Supper that thou dost partake of the one sacrifice of Christ on the cross and all His benefits?",
-      answer:
-          "Thus; that Christ has commanded me and all believers to eat of this broken bread, and to drink of this cup, and has joined therewith these promises: First, that His body was offered, and broken on the cross for me, and His blood shed for me, as certainly as I see with my eyes the bread of the Lord broken for me, and the cup communicated to me; and further, that, with His crucified body and shed blood, He Himself feeds and nourishes my soul to everlasting life as certainly as I receive from the hand of the minister, and taste with my mouth, the bread and cup of the Lord, which are given me as certain tokens of the body and blood of Christ",
-    ),
-    QuestionAndAnswer(
-      index: 76,
-      question:
-          "76. What is it to eat the crucified body and drink the shed blood of Christ?",
-      answer:
-          "It is not only to embrace with a believing heart all the suffering and death of Christ, and thereby to obtain the forgiveness of sins and eternal life; but moreover also, to be so united more and more to His sacred body by the Holy Ghost, who dwells both in Christ and in us, that although He is in heaven, and we on the earth, we are nevertheless flesh of His flesh and bone of His bones, and live and are governed for ever by one Spirit, as members of the same body are by one soul",
-    ),
-    QuestionAndAnswer(
-      index: 77,
-      question:
-          "77. Where has Christ promised that He will thus feed and nourish believers with His body and blood, as certainly as they eat of this broken bread and drink of this cup?",
-      answer:
-          "In the institution of the Supper, which runs thus: The Lord Jesus Christ, the same night in which he was betrayed, took bread; and when He had given thanks, He brake it, and said: Take, eat, this is My body, which is broken for you; this do in remembrance of Me. After the same manner also He took the cup, when he had supped, saying: This cup is the New Testament in My blood: This do ye as often as ye drink it, in remembrance of Me. For as often as ye eat this bread, and drink this cup, ye do show the Lord’s death till He come.\n\nAnd this promise is repeated also by St. Paul, where he says: The cup of blessing which we bless, is it not the communion of the blood of Christ? The bread which we break, is it not the communion of the body of Christ? For we, being many, are one bread, and one body; for we are all partakers of that one bread.",
-    ),
-    QuestionAndAnswer(
-      index: 75,
-      question:
-          "75. How is it signified and sealed unto thee in the Holy Supper that thou dost partake of the one sacrifice of Christ on the cross and all His benefits?",
-      answer:
-          "Thus; that Christ has commanded me and all believers to eat of this broken bread, and to drink of this cup, and has joined therewith these promises: First, that His body was offered, and broken on the cross for me, and His blood shed for me, as certainly as I see with my eyes the bread of the Lord broken for me, and the cup communicated to me; and further, that, with His crucified body and shed blood, He Himself feeds and nourishes my soul to everlasting life as certainly as I receive from the hand of the minister, and taste with my mouth, the bread and cup of the Lord, which are given me as certain tokens of the body and blood of Christ",
-    ),
-    QuestionAndAnswer(
-      index: 76,
-      question:
-          "76. What is it to eat the crucified body and drink the shed blood of Christ?",
-      answer:
-          "It is not only to embrace with a believing heart all the suffering and death of Christ, and thereby to obtain the forgiveness of sins and eternal life; but moreover also, to be so united more and more to His sacred body by the Holy Ghost, who dwells both in Christ and in us, that although He is in heaven, and we on the earth, we are nevertheless flesh of His flesh and bone of His bones, and live and are governed for ever by one Spirit, as members of the same body are by one soul",
-    ),
-    QuestionAndAnswer(
-      index: 77,
-      question:
-          "77. Where has Christ promised that He will thus feed and nourish believers with His body and blood, as certainly as they eat of this broken bread and drink of this cup?",
-      answer:
-          "In the institution of the Supper, which runs thus: The Lord Jesus Christ, the same night in which he was betrayed, took bread; and when He had given thanks, He brake it, and said: Take, eat, this is My body, which is broken for you; this do in remembrance of Me. After the same manner also He took the cup, when he had supped, saying: This cup is the New Testament in My blood: This do ye as often as ye drink it, in remembrance of Me. For as often as ye eat this bread, and drink this cup, ye do show the Lord’s death till He come.\n\nAnd this promise is repeated also by St. Paul, where he says: The cup of blessing which we bless, is it not the communion of the blood of Christ? The bread which we break, is it not the communion of the body of Christ? For we, being many, are one bread, and one body; for we are all partakers of that one bread.",
-    ),
-    QuestionAndAnswer(
-      index: 78,
-      question:
-          "78. Do then the bread and wine become the real body and blood of Christ?",
-      answer:
-          "No: but as the water, in Baptism, is not changed into the blood of Christ, nor becomes the washing away of sins itself, being only the divine token and assurance thereof, so also, in the Lord’s Supper, the sacred bread does not become the body of Christ itself, though agreeably to the nature and usage of sacraments it is called the body of Christ",
-    ),
-    QuestionAndAnswer(
-      index: 79,
-      question:
-          "79. Why then doth Christ call the bread His body, and the cup His blood, or the New Testament in His blood; and St. Paul, the communion of the body and blood of Christ?",
-      answer:
-          "Christ speaks thus not without great cause: namely, not only to teach us thereby, that, like as the bread and wine sustain this temporal life, so also His crucified body and shed blood are the true meat and drink of our souls unto life eternal; but much more, by this visible sign and pledge to assure us, that we are as really partakers of His true body and blood, through the working of the Holy Ghost, as we receive by the mouth of the body these holy tokens in remembrance of Him; and that all His sufferings and obedience are as certainly our own, as if we had ourselves suffered and done all in our own person",
-    ),
-    QuestionAndAnswer(
-      index: 80,
-      question:
-          "80. What difference is there between the Lord’s Supper and the Popish Mass?",
-      answer:
-          "The Lord’s Supper testifies to us, that we have full forgiveness of all our sins by the one sacrifice of Jesus Christ, which He Himself has once accomplished on the cross; and that by the Holy Ghost we are ingrafted into Christ, who with His true body is now in heaven at the right hand of the Father, and is to be there worshiped. But the Mass teaches, that the living and the dead have not forgiveness of sins through the sufferings of Christ, unless Christ is still daily offered for them by the priests; and that Christ is bodily under the form of bread and wine, and is therefore to be worshiped in them. And thus the Mass at bottom is nothing else than a denial of the one sacrifice and passion of Jesus Christ, and an accursed idolatry",
-    ),
-    QuestionAndAnswer(
-      index: 81,
-      question: "81. Who are to come unto the table of the Lord?",
-      answer:
-          "Those who are displeased with themselves for their sins, yet trust that these are forgiven them, and that their remaining infirmity is covered by the passion and death of Christ; who also desire more and more to strengthen their faith and amend their life. But the impenitent and hypocrites eat and drink judgment to themselves",
-    ),
-    QuestionAndAnswer(
-      index: 82,
-      question:
-          "82. Are they then also to be admitted to this Supper, who show themselves to be, by their confession and life, unbelieving and ungodly?",
-      answer:
-          "No: for by this the covenant of God is profaned, and His wrath provoked against the whole congregation; wherefore the Christian Church is bound, according to the order of Christ and His Apostles, by the office of the keys to exclude such persons, until they amend their life",
-    ),
-    QuestionAndAnswer(
-      index: 83,
-      question: "83. What is the Office of the Keys?",
-      answer:
-          "The Preaching of the Holy Gospel and Church Discipline; by which two things the kingdom of heaven is opened to believers and shut against unbelievers",
-    ),
-    QuestionAndAnswer(
-      index: 84,
-      question:
-          "84. How is the kingdom of heaven opened and shut by the Preaching of the Holy Gospel?",
-      answer:
-          "In this way: that according to the command of Christ, it is proclaimed and openly witnessed to believers, one and all, that as often as they accept with true faith the promise of the Gospel, all their sins are really forgiven them of God for the sake of Christ’s merits; and on the contrary, to all unbelievers and hypocrites, that the wrath of God and eternal condemnation abide on them, so long as they are not converted; according to which witness of the Gospel, will be the judgment of God both in this life and in that which is to come",
-    ),
-    QuestionAndAnswer(
-      index: 85,
-      question:
-          "85. How is the kingdom of heaven shut and opened by Church Discipline?",
-      answer:
-          "In this way: that according to the command of Christ, if any under the Christian name show themselves unsound either in doctrine or life, and after repeated brotherly admonition refuse to turn from their errors of evil ways, they are complained of to the church or to its proper officers, and, if they neglect to hear them also, are by them excluded from the Holy Sacraments and the Christian communion, and by God Himself from the kingdom of Christ; and if they promise and show real amendment, they are again received as members of Christ and His Church",
-    ),
-    QuestionAndAnswer(
-      index: 86,
-      question:
-          "86. Since then we are redeemed from our misery by grace through Christ, without any merit of ours, why must we do good works?",
-      answer:
-          "Because Christ, having redeemed us by His blood, renews us also by His Holy Spirit after His own image, that with our whole life we may show ourselves thankful to God for His blessing, and that He may be glorified through us; then also, that we ourselves may be assured of our faith by the fruits thereof, and by our godly walk may win others also to Christ",
-    ),
-    QuestionAndAnswer(
-      index: 87,
-      question:
-          "87. Can they then be saved who do not turn to God from their unthankful, impenitent life?",
-      answer:
-          "By no means: for, as the Scripture saith, no unchaste person, idolater, adulterer, thief, covetous man, drunkard, slanderer, robber, or any such like, shall inherit the kingdom of God",
-    ),
-    QuestionAndAnswer(
-      index: 88,
-      question:
-          "88. In how many things does true repentance or conversion consist?",
-      answer:
-          "In two things: the dying of the old man, and the quickening of the new",
-    ),
-    QuestionAndAnswer(
-      index: 89,
-      question: "89. What is the dying of the old man?",
-      answer:
-          "Heartfelt sorrow for sin; causing us to hate and turn from it always more and more",
-    ),
-    QuestionAndAnswer(
-      index: 90,
-      question: "90. What is the quickening of the new man?",
-      answer:
-          "Heartfelt joy in God; causing us to take delight in living according to the will of God in all good works",
-    ),
-    QuestionAndAnswer(
-      index: 91,
-      question: "91. But what are good works?",
-      answer:
-          "Those only which are done from true faith, according to the Law of God, for His glory; and not such as rest on our own opinion, or the commandments of men.",
-    ),
-    QuestionAndAnswer(
-      index: 92,
-      question: "92. What is the Law of God?",
-      answer:
-          "God spake all these words, saying:\n\nFIRST COMMANDMENT\nI am the Lord thy God, which have brought thee out of the land of Egypt, out of the house of bondage. Thou shalt have no other gods before Me.\n\nSECOND COMMANDMENT\nThou shalt not make unto thee any graven image, or any likeness of anything that is in heaven above or that is in the earth beneath, or that is in the water under the earth; thou shalt not bow down thyself to them, nor serve them. For I the Lord thy God am a jealous God, visiting the iniquity of the fathers upon the children unto the third and fourth generation of them that hate Me; and showing mercy unto thousands of them that love Me, and keep My commandments.\n\nTHIRD COMMANDMENT\nThou shalt not take the name of the Lord thy God in vain: for the Lord will not hold him guiltless that taketh His name in vain.\n\nFOURTH COMMANDMENT\nRemember the Sabbath day to keep it holy. Six days shalt thou labor, and do all thy work: but the seventh day is the Sabbath of the Lord thy God; in it thou shalt not do any work, thou, nor thy son, nor thy daughter, thy manservant, nor thy maidservant, nor thy cattle, nor thy stranger that is within thy gates. For in six days the Lord made heaven and earth, the sea, and all that in them is, and rested the seventh day: wherefore the Lord blessed the Sabbath day, and hallowed it.\n\nFIFTH COMMANDMENT\nHonor thy father and thy mother; that thy days may be long upon the land which the Lord thy God giveth thee.\n\nSIXTH COMMANDMENT\nThou shalt not kill.\n\nSEVENTH COMMANDMENT\nThou shalt not commit adultery.\n\nEIGHTH COMMANDMENT\nThou shalt not steal.\n\nNINTH COMMANDMENT\nThou shalt not bear false witness against thy neighbor.\n\nTENTH COMMANDMENT\nThou shalt not covet thy neighbor’s house; thou shalt not covet thy neighbor’s wife, nor his manservant, nor his maidservant, nor his ox, nor his ass, nor anything that is thy neighbor’s.",
-    ),
-    QuestionAndAnswer(
-      index: 93,
-      question: "92. What is the Law of God?",
-      answer:
-          "Those only which are done from true faith, according to the Law of God, for His glory; and not such as rest on our own opinion, or the commandments of men",
-    ),
-    QuestionAndAnswer(
-      index: 93,
-      question: "93. How are these commandments divided",
-      answer:
-          "Into two tables: the first of which teaches us, in four commandments, what duties we owe to God; the second, in six, what duties we owe to our neighbor",
-    ),
-    QuestionAndAnswer(
-      index: 94,
-      question: "94. What does God require in the first commandment",
-      answer:
-          "That, on peril of my soul’s salvation, I avoid and flee all idolatry, sorcery, enchantments, invocation of saints or of other creatures; and that I rightly acknowledge the only true God, trust in Him alone, with all humility and patience expect all good from Him only, and love, fear and honor Him with my whole heart; so as rather to renounce all creatures than do the least thing against His will",
-    ),
-    QuestionAndAnswer(
-      index: 95,
-      question: "95. What is idolatry",
-      answer:
-          "It is instead of the one true God who has revealed Himself in His Word, or along with the same, to conceive or have something else on which to place our trust",
-    ),
-    QuestionAndAnswer(
-      index: 96,
-      question: "96. What does God require in the second commandment?",
-      answer:
-          "That we in no wise make any image of God, nor worship Him in any other way than He has commanded in His Word",
-    ),
-    QuestionAndAnswer(
-      index: 97,
-      question: "97. Must we then not make any image at all?",
-      answer:
-          "God may not and cannot be imaged in any way; as for creatures, though they may indeed be imaged, yet God forbids the making or keeping any likeness of them, either to worship them, or by them to serve Himself",
-    ),
-    QuestionAndAnswer(
-      index: 98,
-      question:
-          "98. But may not pictures be tolerated in churches as books for the laity?",
-      answer:
-          "No: for we should not be wiser than God, who will not have His people taught by dumb idols, but by the lively preaching of His Word",
-    ),
-    QuestionAndAnswer(
-      index: 99,
-      question: "99. What is required in the third commandment",
-      answer:
-          "That we must not by cursing, or by false swearing, nor yet by unnecessary oaths, profane or abuse the name of God; nor even by our silence and connivance be partakers of these horrible sins in others; and in sum, that we use the holy name of God no otherwise than with fear and reverence, so that He may be rightly confessed and worshiped by us, and be glorified in all our words and works",
-    ),
-    QuestionAndAnswer(
-      index: 100,
-      question:
-          "100. Is then the profaning of God’s name by swearing and cursing so grievous a sin that His wrath is kindled against those also who seek not, as much as in them lies, to hinder and forbid the same?",
-      answer:
-          "Yes truly: for no sin is greater, or more provoking to God than the profaning of His name. Wherefore He even commanded it to be punished with death.",
-    ),
-    QuestionAndAnswer(
-      index: 101,
-      question:
-          "101. But may we not swear by the name of God in a religious manner",
-      answer:
-          "Yes; when the magistrate requires it, or it may be needful otherwise to maintain and promote fidelity and truth, to the glory of God and our neighbor’s good. For such swearing is grounded in God’s Word, and therefore was rightly used by the saints in the Old and New Testaments.",
-    ),
-    QuestionAndAnswer(
-      index: 102,
-      question: "102. May we swear by the saints or any other creature?",
-      answer:
-          "No: for a lawful oath is a calling upon God, as the only searcher of hearts, to bear witness to the truth, and to punish me if I swear falsely; which honor is due no creature.",
-    ),
-    QuestionAndAnswer(
-      index: 103,
-      question: "103. What does God require in the fourth commandment?",
-      answer:
-          "In the first place, that the ministry of the Gospel and schools be maintained; and that I, especially on the day of rest, diligently attend church to learn the Word of God, to use the Holy Sacraments, to call publicly upon the Lord, and to give Christian alms. In the second place, that all the days of my life I rest from my evil works, allow the Lord to work in me by His Spirit, and thus begin in this life the everlasting Sabbath.",
-    ),
-    QuestionAndAnswer(
-      index: 104,
-      question: "104. What does God require in the fifth commandment?",
-      answer:
-          "That I show all honor, love and faithfulness to my father and mother, and to all in authority over me; submit myself with due obedience to all their good instruction and correction; and also bear patiently with their infirmities: since it is God’s will to govern us by their hand.",
-    ),
-    QuestionAndAnswer(
-      index: 105,
-      question: "105. What does God require in the sixth commandment?",
-      answer:
-          "That I neither in thought, nor in word or look, much less in deed, revile, hate, insult or kill my neighbor, whether by myself or by another; but lay aside all desire of revenge; moreover, that I harm not myself, nor wilfully run into any danger. Wherefore also, to restrain murder, the magistrate is armed with the sword.",
-    ),
-    QuestionAndAnswer(
-      index: 106,
-      question: "106. But this commandment speaks only of killing?",
-      answer:
-          "In forbidding this, however, God means to teach us that He abhors the root of murder, namely, envy, hatred, anger, and desire of revenge; and that all these are in His sight hidden murder.",
-    ),
-    QuestionAndAnswer(
-      index: 107,
-      question:
-          "107. Is it then enough that we do not kill our neighbor in any such way?",
-      answer:
-          "No: for in condemning envy, hatred, and anger, God requires us to love our neighbor as ourselves, to show patience, peace, meekness, mercy and kindness towards him, and, so far as we have power, to prevent his hurt; also to do good even unto our enemies.",
-    ),
-    QuestionAndAnswer(
-      index: 108,
-      question: "108. What does the seventh commandment teach us?",
-      answer:
-          "That all unchastity is accursed of God; and that we should therefore loathe it from the heart, and live chastely and modestly whether in holy wedlock or single life.",
-    ),
-    QuestionAndAnswer(
-      index: 109,
-      question:
-          "109. Does God in this commandment forbid nothing more than adultery and such like gross sins?",
-      answer:
-          "Since our body and soul are both temples of the Holy Ghost, it is His will that we keep both pure and holy; for which reason He forbids all unchaste actions, gestures, words, thoughts, desires, and whatever may entice thereto.",
-    ),
-    QuestionAndAnswer(
-      index: 110,
-      question: "110. What does God forbid in the eighth commandment?",
-      answer:
-          "Not only such theft and robbery as are punished by the magistrate; but God views as theft all wicked tricks and devices, whereby we seek to draw to ourselves our neighbor’s goods, whether by force or with show of right, such as unjust weights, ells, measures, wares, coins, usury, or any means forbidden of God; so moreover all covetousness, and all useless waste of His gifts.",
-    ),
-    QuestionAndAnswer(
-      index: 111,
-      question: "111. But what does God require of thee in this commandment?",
-      answer:
-          "That I further my neighbor’s good, where I can and may; deal with him as I would have others deal with me; and labor faithfully, that I may be able to help the poor in their need.",
-    ),
-    QuestionAndAnswer(
-      index: 112,
-      question: "112. What is required in the ninth commandment?",
-      answer:
-          "That I bear false witness against no one; wrest no one’s words; be no backbiter, or slanderer; join in condemning no one unheard and rashly; but that I avoid, on pain of God’s heavy wrath, all lying and deceit, as being the proper works of the devil; in matters of judgment and justice and in all other affairs love, honestly speak and confess the truth; and, so far as I can, defend and promote my neighbor’s good name.",
-    ),
-    QuestionAndAnswer(
-      index: 113,
-      question: "113. What is required in the tenth commandment?",
-      answer:
-          "That not even the least inclination or thought against any of God’s commandments ever enter into our heart; but that, with our whole heart, we continually hate all sin, and take pleasure in all righteousness.",
-    ),
-    QuestionAndAnswer(
-      index: 114,
-      question:
-          "114. Can those who are converted to God keep these commandments perfectly?",
-      answer:
-          "No: but even the holiest men, while in this life, have only a small beginning of this obedience; yet so, that with earnest purpose they begin to live, not only according to some, but according to all the commandments of God.",
-    ),
-    QuestionAndAnswer(
-      index: 116,
-      question: "116. Why is Prayer necessary for Christians?",
-      answer:
-          "Because it is the chief part of the thankfulness which God requires of us; and because God will give His grace and Holy Spirit only to such, as earnestly and without ceasing, beg them from Him, and render thanks unto Him for them.",
-    ),
-    QuestionAndAnswer(
-      index: 117,
-      question:
-          "117. What belongs to such prayer, as God is pleased with and will hear?",
-      answer:
-          "First, that from the heart we call only upon the one true God, who has revealed Himself to us in His word, for all that He has commanded us to ask of Him; secondly, that we thoroughly know our need and misery, so as to humble ourselves before the face of His Divine Majesty; thirdly, that we be firmly assured, that withstanding our unworthiness He will, for the sake of Christ our Lord, certainly hear our prayer, as He has promised us in His word.",
-    ),
-    QuestionAndAnswer(
-      index: 118,
-      question: "118. What has God commanded us to ask of Him?",
-      answer:
-          "All things necessary for soul and body, which Christ our Lord has comprised in the prayer taught us by Himself.",
-    ),
-    QuestionAndAnswer(
-      index: 119,
-      question: "119. What is the Lord’s Prayer?",
-      answer:
-          "Our Father which art in heaven: Hallowed by Thy name. Thy kingdom come. Thy will be done in earth, as it is in heaven. Give us this day our daily bread. And forgive us our debts, as we forgive our debtors. And lead us not into temptation; but deliver us from evil. For Thine is the kingdom, and the power, and the glory, for ever. Amen.",
-    ),
-    QuestionAndAnswer(
-      index: 120,
-      question:
-          "120. Why has Christ commanded us to address God thus: Our Father?",
-      answer:
-          "To awaken in us, at the very beginning of our prayer, that filial reverence and trust toward God, which are to be the ground of our prayer; namely, that God has become our Father through Christ, and will much less deny us what we ask of Him in faith, than our parents refuse us earthly things.",
-    ),
-    QuestionAndAnswer(
-      index: 121,
-      question: "121. Why is it added: Who art in heaven?",
-      answer:
-          "That we may have no earthly thought of the heavenly majesty of God; and may expect from His almighty power all things necessary for body and soul.",
-    ),
-    QuestionAndAnswer(
-      index: 122,
-      question: "122. What is the first petition?",
-      answer:
-          "Hallowed be Thy name. That is: Enable us rightly to know Thee, and to hallow, magnify and praise Thee in all Thy works, in which shine forth Thy power, wisdom, goodness, justice, mercy and truth; and likewise so to order our whole life, in thought, word and work, that Thy name may not be blasphemed, but honored and praised on our account.",
-    ),
-    QuestionAndAnswer(
-      index: 123,
-      question: "123. What is the second petition?",
-      answer:
-          "Thy kingdom come. That is: So govern us by Thy word and Spirit, that we submit ourselves unto Thee always more and more; preserve and increase Thy Church; destroy the works of the devil, every power that exalteth itself against Thee, and all wicked devices formed against Thy holy word, until the full coming of Thy kingdom, wherein Thou shalt be all in all.",
-    ),
-    QuestionAndAnswer(
-      index: 124,
-      question: "124. What is the third petition?",
-      answer:
-          "Thy will be done in earth, as it is in heaven. That is: Grant that we and all men may renounce our own will, and yield ourselves without gainsaying, to Thy will which alone is good; that so every one may fulfill his office and calling, as willingly and truly as the angels do in heaven.",
-    ),
-    QuestionAndAnswer(
-      index: 125,
-      question: "125. What is the fourth petition?",
-      answer:
-          "Give us this day our daily bread. That is: Be pleased to provide for all our bodily need; that we may thereby know that Thou art the only fountain of all good, and that without Thy blessing, neither our care and labor, nor Thy gifts can profit us; and may therefore withdraw our trust from all creatures, and place it alone in Thee.",
-    ),
-    QuestionAndAnswer(
-      index: 126,
-      question: "126. What is the fifth petition?",
-      answer:
-          "And forgive us our debts as we forgive our debtors. That is: Be pleased for the sake of Christ’s blood, not to impute to us, miserable sinners, our manifold transgressions, nor the evil which still always cleaves to us, as we find this witness of Thy grace in us, that it is our full purpose heartily to forgive our neighbor.",
-    ),
-    QuestionAndAnswer(
-      index: 127,
-      question: "127. What is the sixth petition?",
-      answer:
-          "And lead us not into temptation; but deliver us from evil. That is: Since we are so weak in ourselves, that we cannot stand a moment; while our deadly enemies, the devil, the world and our own flesh, assail us without ceasing; be pleased to preserve and strengthen us by the power of Thy Holy Spirit, that we may make firm stand against them, and not sink in this spiritual war, until we come off at last with complete victory.",
-    ),
-    QuestionAndAnswer(
-      index: 128,
-      question: "128. How do you close this prayer?",
-      answer:
-          "For Thine is the kingdom, and the power, and the glory, for ever. That is: All this we ask of Thee, because as our King, having power over all things, Thou art both willing and able to give us all good; and that thereby not we, but Thy holy Name may be glorified for ever.",
-    ),
-    QuestionAndAnswer(
-      index: 129,
-      question: "129. What is the meaning of the word Amen?",
-      answer:
-          "Amen means: So shall it truly and surely be. For my prayer is much more certainly heard of God, than I feel in my heart that I desire these things of Him",
-    ),
+      QuestionAndAnswer(
+  	  index: 1,
+  	  question: "1. What is your only comfort in life and death?",
+  	  answer:
+  		  "That I am not my own, but belong with body and soul, both in life and in death, to my faithful Saviour Jesus Christ. He has fully paid for all my sins with His precious blood, and has set me free from all the power of the devil. He also preserves me in such a way that without the will of my heavenly Father not a hair can fall from my head; indeed, all things must work together for my salvation. Therefore, by His Holy Spirit He also assures me of eternal life and makes me heartily willing and ready from now on to live for Him.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 2,
+  	  question: "2. What do you need to know in order to live and die in the joy of this comfort?",
+  	  answer:
+  		  "First, how great my sins and misery are; second, how I am delivered from all my sins and misery; third, how I am to be thankful to God for such deliverance.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 3,
+  	  question: "3. From where do you know your sins and misery?",
+  	  answer:
+  		  "From the law of God.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 4,
+  	  question: "4. What does God's law require of us?",
+  	  answer:
+  		  "Christ teaches us this in a summary in Matthew 22: You shall love the LORD your God with all your heart, and with all your soul, and with all your mind. This is the great and first commandment.  And a second is like it, You shall love your neighbour as yourself.  On these two commandments depend all the law and the prophets.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 5,
+  	  question: "5. Can you keep all this perfectly?",
+  	  answer:
+  		  "No, I am inclined by nature to hate God and my neighbour.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 6,
+  	  question: "6. Did God, then, create man so wicked and perverse?",
+  	  answer:
+  		  "No, on the contrary, God created man good and in His image, that is, in true righteousness and holiness, so that he might rightly know God His Creator, heartily love Him, and live with Him in eternal blessedness to praise and glorify Him.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 7,
+  	  question: "7. From where, then, did man's depraved nature come?",
+  	  answer:
+  		  "From the fall and disobedience of our first parents, Adam and Eve, in Paradise, for there our nature became so corrupt that we are all conceived and born in sin.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 8,
+  	  question: "8. But are we so corrupt that we are totally unable to do any good and inclined to all evil?",
+  	  answer:
+  		  "Yes, unless we are regenerated by the Spirit of God.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 9,
+  	  question: "9. Is God, then, not unjust by requiring in His law what man cannot do?",
+  	  answer:
+  		  "No, for God so created man that he was able to do it. But man, at the instigation of the devil, in deliberate disobedience robbed himself and all his descendants of these gifts.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 10,
+  	  question: "10. Will God allow such disobedience and apostasy to go unpunished?",
+  	  answer:
+  		  "Certainly not. He is terribly displeased with our original sin as well as our actual sins.  Therefore He will punish them by a just judgment both now and eternally, as He has declared: Cursed be every one who does not abide by all things written in the book of the law, and do them (Galatians 3:10).",
+  	),
+  	QuestionAndAnswer(
+  	  index: 11,
+  	  question: "11. But is God not also merciful?",
+  	  answer:
+  		  "God is indeed merciful, but He is also just. His justice requires that sin committed against the most high majesty of God also be punished with the most severe, that is, with everlasting, punishment of body and soul.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 12,
+  	  question: "12. Since, according to God's righteous judgment we deserve temporal and eternal punishment, how can we escape this punishment and be again received into favour?",
+  	  answer:
+  		  "God demands that His justice be satisfied. Therefore full payment must be made either by ourselves or by another.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 13,
+  	  question: "13. Can we ourselves make this payment?",
+  	  answer:
+  		  "Certainly not. On the contrary, we daily increase our debt.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 14,
+  	  question: "14. Can any mere creature pay for us?",
+  	  answer:
+  		  "No. In the first place, God will not punish another creature for the sin which man has committed. Furthermore, no mere creature can sustain the burden of God's eternal wrath against sin and deliver others from it.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 15,
+  	  question: "15. What kind of mediator and deliverer must we seek?",
+  	  answer:
+  		  "One who is a true and righteous man, and yet more powerful than all creatures; that is, one who is at the same time true God.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 16,
+  	  question: "16. Why must He be a true and righteous man?",
+  	  answer:
+  		  "He must be a true man because the justice of God requires that the same human nature which has sinned should pay for sin. He must be a righteous man because one who himself is a sinner cannot pay for others.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 17,
+  	  question: "17. Why must He at the same time be true God?",
+  	  answer:
+  		  "He must be true God so that by the power of His divine nature He might bear in His human nature the burden of God's wrath, and might obtain for us and restore to us righteousness and life.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 18,
+  	  question: "18. But who is that Mediator who at the same time is true God and a true and righteous man?",
+  	  answer:
+  		  "Our Lord Jesus Christ, whom God made our wisdom, our righteousness and sanctification and redemption (I Corinthians 1:30).",
+  	),
+  	QuestionAndAnswer(
+  	  index: 19,
+  	  question: "19. From where do you know this?",
+  	  answer:
+  		  "From the holy gospel, which God Himself first revealed in Paradise. Later, He had it proclaimed by the patriarchs and prophets, and foreshadowed by the sacrifices and other ceremonies of the law. Finally, He had it fulfilled through His only Son.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 20,
+  	  question: "20. Are all men, then, saved by Christ just as they perished through Adam?",
+  	  answer:
+  		  "No. Only those are saved who by a true faith are grafted into Christ and accept all His benefits.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 21,
+  	  question: "21. What is true faith?",
+  	  answer:
+  		  "True faith is a sure knowledge whereby I accept as true all that God has revealed to us in His Word. At the same time it is a firm confidence that not only to others, but also to me, God has granted forgiveness of sins, everlasting righteousness, and salvation, out of mere grace, only for the sake of Christ's merits. This faith the Holy Spirit works in my heart by the gospel.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 22,
+  	  question: "22. What, then, must a Christian believe?",
+  	  answer:
+  		  "All that is promised us in the gospel, which the articles of our catholic and undoubted Christian faith teach us in a summary.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 23,
+  	  question: "23. What are these articles?",
+  	  answer:
+  		  "III.1.I believe in God the Father almighty,  III.1. Creator of heaven and earth.  III.2.I believe in Jesus Christ,  III.2. His only begotten Son, our Lord;   III.3. He was conceived by the Holy Spirit,  III.3. born of the virgin Mary;   III.4. suffered under Pontius Pilate,  III.4. was crucified, dead, and buried;   III.4. He descended into hell;  III.5. On the third day He arose from the dead;  III.6. He ascended into heaven,  III.6. and sits at the right hand  III.6. of God the Father almighty;  III.7. from there He will come to judge  III.7. the living and the dead.  III.8. I believe in the Holy Spirit;  III.9. I believe a holy catholic Christian church,  III.9. the communion of saints;  III.10. the forgiveness of sins;   III.11. the resurrection of the body;  III.12. and the life everlasting.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 24,
+  	  question: "24. How are these articles divided?",
+  	  answer:
+  		  "Into three parts: the first is about God the Father and our creation; the second about God the Son and our redemption; the third about God the Holy Spirit and our sanctification.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 25,
+  	  question: "25. Since there is only one God, why do you speak of three persons, Father, Son, and Holy Spirit?",
+  	  answer:
+  		  "Because God has so revealed Himself in His Word that these three distinct persons are the one, true, eternal God.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 26,
+  	  question: "26. What do you believe when you say: I believe in God the Father almighty, Creator of heaven and earth?",
+  	  answer:
+  		  "That the eternal Father of our Lord Jesus Christ, who out of nothing created heaven and earth and all that is in them, and who still upholds and governs them by His eternal counsel and providence, is, for the sake of Christ His Son, my God and my Father. In Him I trust so completely as to have no doubt that He will provide me with all things necessary for body and soul, and will also turn to my good whatever adversity He sends me in this life of sorrow. He is able to do so as almighty God, and willing also as a faithful Father.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 27,
+  	  question: "27. What do you understand by the providence of God?",
+  	  answer:
+  		  "God's providence is His almighty and ever present power, whereby, as with His hand, He still upholds heaven and earth and all creatures, and so governs them that leaf and blade, rain and drought, fruitful and barren years, food and drink, health and sickness, riches and poverty, indeed, all things, come not by chance but by His fatherly hand.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 28,
+  	  question: "28. What does it benefit us to know that God has created all things and still upholds them by His providence?",
+  	  answer:
+  		  "We can be patient in adversity, thankful in prosperity, and with a view to the future we can have a firm confidence in our faithful God and Father that no creature shall separate us from His love; for all creatures are so completely in His hand that without His will they cannot so much as move.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 29,
+  	  question: "29. Why is the Son of God called Jesus, that is, Saviour?",
+  	  answer:
+  		  "Because He saves us from all our sins, and because salvation is not to be sought or found in anyone else.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 30,
+  	  question: "30. Do those believe in the only Saviour Jesus who seek their salvation and well-being from saints, in themselves, or anywhere else?",
+  	  answer:
+  		  "No. Though they boast of Him in words, they in fact deny the only Saviour Jesus. For one of two things must be true: either Jesus is not a complete Saviour, or those who by true faith accept this Saviour must find in Him all that is necessary for their salvation.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 31,
+  	  question: "31. Why is He called Christ, that is, Anointed?",
+  	  answer:
+  		  "Because He has been ordained by God the Father, and anointed with the Holy Spirit, to be our chief Prophet and Teacher, who has fully revealed to us the secret counsel and will of God concerning our redemption; our only High Priest, who by the one sacrifice of His body has redeemed us, and who continually intercedes for us before the Father; and our eternal King, who governs us by His Word and Spirit, and who defends and preserves us in the redemption obtained for us.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 32,
+  	  question: "32. Why are you called a Christian?",
+  	  answer:
+  		  "Because I am a member of Christ by faith and thus share in His anointing, so that I may as prophet confess His Name, as priest present myself a living sacrifice of thankfulness to Him, and as king fight with a free and good conscience against sin and the devil in this life, and hereafter reign with Him eternally over all creatures.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 33,
+  	  question: "33. Why is He called God's only begotten Son, since we also are children of God?",
+  	  answer:
+  		  "Because Christ alone is the eternal, natural Son of God. We, however, are children of God by adoption, through grace, for Christ's sake.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 34,
+  	  question: "34. Why do you call Him our Lord?",
+  	  answer:
+  		  "Because He has ransomed us, body and soul, from all our sins, not with silver or gold but with His precious blood, and has freed us from all the power of the devil to make us His own possession.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 35,
+  	  question: "35. What do you confess when you say: He was conceived by the Holy Spirit, born of the virgin Mary?",
+  	  answer:
+  		  "The eternal Son of God, who is and remains true and eternal God, took upon Himself true human nature from the flesh and blood of the virgin Mary, through the working of the Holy Spirit. Thus He is also the true seed of David, and like His brothers in every respect, yet without sin.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 36,
+  	  question: "36. What benefit do you receive from the holy conception and birth of Christ?",
+  	  answer:
+  		  "He is our Mediator, and with His innocence and perfect holiness covers, in the sight of God, my sin, in which I was conceived and born.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 37,
+  	  question: "37. What do you confess when you say that He suffered?",
+  	  answer:
+  		  "During all the time He lived on earth, but especially at the end, Christ bore in body and soul the wrath of God against the sin of the whole human race. Thus, by His suffering, as the only atoning sacrifice, He has redeemed our body and soul from everlasting damnation, and obtained for us the grace of God, righteousness, and eternal life.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 38,
+  	  question: "38. Why did He suffer under Pontius Pilate as judge?",
+  	  answer:
+  		  "Though innocent, Christ was condemned by an earthly judge, and so He freed us from the severe judgment of God that was to fall on us.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 39,
+  	  question: "39. Does it have a special meaning that Christ was crucified and did not die in a different way?",
+  	  answer:
+  		  "Yes. Thereby I am assured that He took upon Himself the curse which lay on me, for a crucified one was cursed by God.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 40,
+  	  question: "40. Why was it necessary for Christ to humble Himself even unto death?",
+  	  answer:
+  		  "Because of the justice and truth of God satisfaction for our sins could be made in no other way than by the death of the Son of God.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 41,
+  	  question: "41. Why was he buried?",
+  	  answer:
+  		  "His burial testified that He had really died.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 42,
+  	  question: "42. Since Christ has died for us, why do we still have to die?",
+  	  answer:
+  		  "Our death is not a payment for our sins, but it puts an end to sin and is an entrance into eternal life.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 43,
+  	  question: "43. What further benefit do we receive from Christ's sacrifice and death on the cross?",
+  	  answer:
+  		  "Through Christ's death our old nature is crucified, put to death, and buried with Him, so that the evil desires of the flesh may no longer reign in us, but that we may offer ourselves to Him as a sacrifice of thankfulness.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 44,
+  	  question: "44. Why is there added: He descended into hell?",
+  	  answer:
+  		  "In my greatest sorrows and temptations I may be assured and comforted that my Lord Jesus Christ, by His unspeakable anguish, pain, terror, and agony, which He endured throughout all His sufferings but especially on the cross, has delivered me from the anguish and torment of hell.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 45,
+  	  question: "45. How does Christ's resurrection benefit us?",
+  	  answer:
+  		  "First, by His resurrection He has overcome death, so that He could make us share in the righteousness which He had obtained for us by His death. Second, by His power we too are raised up to a new life. Third, Christ's resurrection is to us a sure pledge of our glorious resurrection.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 46,
+  	  question: "46. What do you confess when you say, He ascended into heaven?",
+  	  answer:
+  		  "That Christ, before the eyes of His disciples, was taken up from the earth into heaven, and that He is there for our benefit until He comes again to judge the living and the dead.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 47,
+  	  question: "47. Is Christ, then, not with us until the end of the world, as He has promised us?",
+  	  answer:
+  		  "Christ is true man and true God.  With respect to His human nature He is no longer on earth, but with respect to His divinity, majesty, grace, and Spirit He is never absent from us.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 48,
+  	  question: "48. But are the two natures in Christ not separated from each other if His human nature is not present wherever His divinity is?",
+  	  answer:
+  		  "Not at all, for His divinity has no limits and is present everywhere. So it must follow that His divinity is indeed beyond the human nature which He has taken on and nevertheless is within this human nature and remains personally united with it.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 49,
+  	  question: "49. How does Christ's ascension into heaven benefit us?",
+  	  answer:
+  		  "First, He is our Advocate in heaven before His Father. Second, we have our flesh in heaven as a sure pledge that He, our Head, will also take us, His members, up to Himself. Third, He sends us His Spirit as a counter-pledge, by whose power we seek the things that are above, where Christ is, seated at the right hand of God, and not the things that are on earth.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 50,
+  	  question: "50. Why is it added, And sits at the right hand of God?",
+  	  answer:
+  		  "Christ ascended into heaven to manifest Himself there as Head of His Church, through whom the Father governs all things.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 51,
+  	  question: "51. How does the glory of Christ, our Head, benefit us?",
+  	  answer:
+  		  "First, by His Holy Spirit He pours out heavenly gifts upon us, His members. Second, by His power He defends and preserves us against all enemies.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 52,
+  	  question: "52. What comfort is it to you that Christ will come to judge the living and the dead?",
+  	  answer:
+  		  "In all my sorrow and persecution I lift up my head and eagerly await as judge from heaven the very same person who before has submitted Himself to the judgment of God for my sake, and has removed all the curse from me. He will cast all His and my enemies into everlasting condemnation, but He will take me and all His chosen ones to Himself into heavenly joy and glory.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 53,
+  	  question: "53. What do you believe concerning the Holy Spirit?",
+  	  answer:
+  		  "First, He is, together with the Father and the Son, true and eternal God. Second, He is also given to me, to make me by true faith share in Christ and all His benefits, to comfort me, and to remain with me forever.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 54,
+  	  question: "54. What do you believe concerning the holy catholic Christian church?",
+  	  answer:
+  		  "I believe that the Son of God, out of the whole human race, from the beginning of the world to its end, gathers, defends, and preserves for Himself,  by His Spirit and Word, in the unity of the true faith, a church chosen to everlasting life. And I believe that I am and forever shall remain a living member of it.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 55,
+  	  question: "55. What do you understand by the communion of saints?",
+  	  answer:
+  		  "First, that believers, all and everyone, as members of Christ have communion with Him and share in all His treasures and gifts. Second, that everyone is duty-bound to use his gifts readily and cheerfully for the benefit and well-being of the other members.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 56,
+  	  question: "56. What do you believe concerning the forgiveness of sins?",
+  	  answer:
+  		  "I believe that God, because of Christ's satisfaction, will no more remember my sins, nor my sinful nature, against which I have to struggle all my life, but He will graciously grant me the righteousness of Christ, that I may never come into condemnation.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 57,
+  	  question: "57. What comfort does the resurrection of the body offer you?",
+  	  answer:
+  		  "Not only shall my soul after this life immediately be taken up to Christ, my Head, but also this my flesh, raised by the power of Christ, shall be reunited with my soul and made like Christ's glorious body.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 58,
+  	  question: "58. What comfort do you receive from the article about the life everlasting?",
+  	  answer:
+  		  "Since I now already feel in my heart the beginning of eternal joy,  I shall after this life possess perfect blessedness, such as no eye has seen, nor ear heard, nor the heart of man conceived-- a blessedness in which to praise God forever.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 59,
+  	  question: "59. But what does it help you now that you believe all this?",
+  	  answer:
+  		  "In Christ I am righteous before God and heir to life everlasting.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 60,
+  	  question: "60. How are you righteous before God?",
+  	  answer:
+  		  "Only by true faith in Jesus Christ. Although my conscience accuses me that I have grievously sinned against all God's commandments, have never kept any of them, and am still inclined to all evil, yet God, without any merit of my own, out of mere grace, imputes to me the perfect satisfaction, righteousness, and holiness of Christ. He grants these to me as if I had never had nor committed any sin, and as if I myself had accomplished all the obedience which Christ has rendered for me, if only I accept this gift with a believing heart.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 61,
+  	  question: "61. Why do you say that you are righteous only by faith?",
+  	  answer:
+  		  "Not that I am acceptable to God on account of the worthiness of my faith, for only the satisfaction, righteousness, and holiness of Christ is my righteousness before God. I can receive this righteousness and make it mine my own by faith only.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 62,
+  	  question: "62. But why can our good works not be our righteousness before God, or at least a part of it?",
+  	  answer:
+  		  "Because the righteousness which can stand before God's judgment must be absolutely perfect and in complete agreement with the law of God, whereas even our best works in this life are all imperfect and defiled with sin.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 63,
+  	  question: "63. But do our good works earn nothing, even though God promises to reward them in this life and the next?",
+  	  answer:
+  		  "This reward is not earned; it is a gift of grace.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 64,
+  	  question: "64. Does this teaching not make people careless and wicked?",
+  	  answer:
+  		  "No. It is impossible that those grafted into Christ by true faith should not bring forth fruits of thankfulness.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 65,
+  	  question: "65. Since then faith alone makes us share in Christ and all His benefits, where does this faith come from?",
+  	  answer:
+  		  "From the Holy Spirit, who works it in our hearts by the preaching of the gospel, and strengthens it by the use of the sacraments.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 66,
+  	  question: "66. What are the sacraments?",
+  	  answer:
+  		  "The sacraments are holy, visible signs and seals.  They were instituted by God so that by their use He might the more fully declare and seal to us the promise of the gospel. And this is the promise: that God graciously grants us forgiveness of sins and everlasting life because of the one sacrifice of Christ accomplished on the cross.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 67,
+  	  question: "67. Are both the Word and the sacraments then intended to focus our faith on the sacrifice of Jesus Christ on the cross as the only ground of our salvation?",
+  	  answer:
+  		  "Yes, indeed.  The Holy Spirit teaches us in the gospel and assures us by the sacraments that our entire salvation rests on Christ's one sacrifice for us on the cross.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 68,
+  	  question: "68. How many sacraments has Christ instituted in the new covenant?",
+  	  answer:
+  		  "Two: holy baptism and the holy supper.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 69,
+  	  question: "69. How does holy baptism signify and seal to you that the one sacrifice of Christ on the cross benefits you?",
+  	  answer:
+  		  "In this way: Christ instituted this outward washing and with it gave the promise that, as surely as water washes away the dirt from the body, so certainly His blood and Spirit wash away the impurity of my soul, that is, all my sins.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 70,
+  	  question: "70. What does it mean to be washed with Christ's blood and Spirit?",
+  	  answer:
+  		  "To be washed with Christ's blood means to receive forgiveness of sins from God, through grace, because of Christ's blood, poured out for us in His sacrifice on the cross. To be washed with His Spirit means to be renewed by the Holy Spirit and sanctified to be members of Christ, so that more and more we become dead to sin and lead a holy and blameless life.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 71,
+  	  question: "71. Where has Christ promised that He will wash us with His blood and Spirit as surely as we are washed with the water of baptism?",
+  	  answer:
+  		  "In the institution of baptism, where He says: Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit (Matthew 28:19).  He who believes and is baptized will be saved, but he who does not believe will be condemned (Mark 16:16).  This promise is repeated where Scripture calls baptism the washing of regeneration and the washing away of sins (Titus 3:5; Acts 22:16).",
+  	),
+  	QuestionAndAnswer(
+  	  index: 72,
+  	  question: "72. Does this outward washing with water itself wash away sins?",
+  	  answer:
+  		  "No, only the blood of Jesus Christ and the Holy Spirit cleanse us from all sins.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 73,
+  	  question: "73. Why then does the Holy Spirit call baptism the washing of regeneration and the washing away of sins?",
+  	  answer:
+  		  "God speaks in this way for a good reason.  He wants to teach us that the blood and Spirit of Christ remove our sins just as water takes away dirt from the body. But, even more important, He wants to assure us by this divine pledge and sign that we are as truly cleansed from our sins spiritually as we are bodily washed with water.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 74,
+  	  question: "74. Should infants, too, be baptized?",
+  	  answer:
+  		  "Yes. Infants as well as adults belong to God's covenant and congregation. Through Christ's blood the redemption from sin and the Holy Spirit, who works faith, are promised to them no less than to adults. Therefore, by baptism, as sign of the covenant, they must be grafted into the Christian church and distinguished from the children of unbelievers. This was done in the old covenant by circumcision, in place of which baptism was instituted in the new covenant.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 75,
+  	  question: "75. How does the Lord's Supper signify and seal to you that you share in Christ's one sacrifice on the cross and in all His gifts?",
+  	  answer:
+  		  "In this way: Christ has commanded me and all believers to eat of this broken bread and drink of this cup in remembrance of Him.  With this command He gave these promises: First, as surely as I see with my eyes the bread of the Lord broken for me and the cup given to me, so surely was His body offered for me and His blood poured out for me on the cross.  Second, as surely as I receive from the hand of the minister and taste with my mouth the bread and the cup of the Lord as sure signs of Christ's body and blood, so surely does He Himself nourish and refresh my soul to everlasting life with His crucified body and shed blood.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 76,
+  	  question: "76. What does it mean to eat the crucified body of Christ and to drink His shed blood?",
+  	  answer:
+  		  "First, to accept with a believing heart all the suffering and the death of Christ, and so receive forgiveness of sins and life eternal. Second, to be united more and more to His sacred body through the Holy Spirit, who lives both in Christ and in us. Therefore, although Christ is in heaven and we are on earth, yet we are flesh of His flesh and bone of His bones, and we forever live and are governed by one Spirit, as the members of our body are by one soul.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 77,
+  	  question: "77. Where has Christ promised that He will nourish and refresh believers with His body and blood as surely as they eat of this broken bread and drink of this cup?",
+  	  answer:
+  		  "In the institution of the Lord's supper: The Lord Jesus on the night when He was betrayed took bread, and when He had given thanks, He broke it and said, "This is my body which is for you.  Do this in remembrance of me."  In the same way also the cup, after supper, saying, "Do this, as often as you drink it, in remembrance of me." For as often as you eat this bread and drink the cup, you proclaim the Lord's death until He comes (I Corinthians 11:23-26).  This promise is repeated by Paul where he says: The cup of blessing which we bless, is it not a participation in the blood of Christ?  The bread which we break, is it not a participation in the body of Christ?  Because there is one bread, we who are many are one body, for we all partake of the one bread (I Corinthians 10:16, 17).",
+  	),
+  	QuestionAndAnswer(
+  	  index: 78,
+  	  question: "78. Are then the bread and wine changed into the real body and blood of Christ?",
+  	  answer:
+  		  "No.  Just as the water of baptism is not changed into the blood of Christ and is not the washing away of sins itself but is simply God's sign and pledge, so also the bread in the Lord's supper does not become the body of Christ itself, although it is called Christ's body in keeping with the nature and usage of sacraments.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 79,
+  	  question: "79. Why then does Christ call the bread His body and the cup His blood, or the new covenant in His blood, and why does Paul speak of a participation in the body and blood of Christ?",
+  	  answer:
+  		  "Christ speaks in this way for a good reason: He wants to teach us by His supper that as bread and wine sustain us in this temporal life, so His crucified body and shed blood are true food and drink for our souls to eternal life. But, even more important, He wants to assure us by this visible sign and pledge, first, that through the working of the Holy Spirit we share in His true body and blood as surely as we receive with our mouth these holy signs in remembrance of Him, and, second, that all His suffering and obedience are as certainly ours as if we personally had suffered and paid for our sins.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 80,
+  	  question: "80. What difference is there between the Lord's supper and the papal mass?",
+  	  answer:
+  		  "The Lord's supper testifies to us, first, that we have complete forgiveness of all our sins through the one sacrifice of Jesus Christ, which He Himself accomplished on the cross once for all; and, second, that through the Holy Spirit we are grafted into Christ, who with His true body is now in heaven at the right hand of the Father, and this is where He wants to be worshipped. But the mass teaches, first, that the living and the dead do not have forgiveness of sins through the suffering of Christ unless He is still offered for them daily by the priests; and, second, that Christ is bodily present in the form of bread and wine, and there is to be worshipped.  Therefore the mass is basically nothing but a denial of the one sacrifice and suffering of Jesus Christ, and an accursed idolatry.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 81,
+  	  question: "81. Who are to come to the table of the Lord?",
+  	  answer:
+  		  "Those who are truly displeased with themselves because of their sins and yet trust that these are forgiven them and that their remaining weakness is covered by the suffering and death of Christ, and who also desire more and more to strengthen their faith and amend their life. But hypocrites and those who do not repent eat and drink judgment upon themselves.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 82,
+  	  question: "82. Are those also to be admitted to the Lord's supper who by their confession and life show that they are unbelieving and ungodly?",
+  	  answer:
+  		  "No, for then the covenant of God would be profaned and His wrath kindled against the whole congregation. Therefore, according to the command of Christ and His apostles, the Christian church is duty-bound to exclude such persons by the keys of the kingdom of heaven, until they amend their lives.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 83,
+  	  question: "83. What are the keys of the kingdom of heaven?",
+  	  answer:
+  		  "The preaching of the holy gospel and church discipline. By these two the kingdom of heaven is opened to believers and closed to unbelievers.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 84,
+  	  question: "84. How is the kingdom of heaven opened and closed by the preaching of the gospel?",
+  	  answer:
+  		  "According to the command of Christ, the kingdom of heaven is opened when it is proclaimed and publicly testified to each and every believer that God has really forgiven all their sins for the sake of Christ's merits, as often as they by true faith accept the promise of the gospel.  The kingdom of heaven is closed when it is proclaimed and testified to all unbelievers and hypocrites that the wrath of God and eternal condemnation rest on them as long as they do not repent.  According to this testimony of the gospel, God will judge both in this life and in the life to come.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 85,
+  	  question: "85. How is the kingdom of heaven closed and opened by church discipline?",
+  	  answer:
+  		  "According to the command of Christ, people who call themselves Christians but show themselves to be unchristian in doctrine or life are first repeatedly admonished in a brotherly manner.  If they do not give up their errors or wickedness, they are reported to the church, that is, to the elders.  If they do not heed also their admonitions, they are forbidden the use of the sacraments, and they are excluded by the elders from the Christian congregation, and by God Himself from the kingdom of Christ. They are again received as members of Christ and of the church when they promise and show real amendment.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 86,
+  	  question: "86. Since we have been delivered from our misery by grace alone through Christ, without any merit of our own, why must we yet do good works?",
+  	  answer:
+  		  "Because Christ, having redeemed us by His blood, also renews us by His Holy Spirit to be His image, so that with our whole life we may show ourselves thankful to God for His benefits, and He may be praised by us. Further, that we ourselves may be assured of our faith by its fruits, and that by our godly walk of life we may win our neighbours for Christ.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 87,
+  	  question: "87. Can those be saved who do not turn to God from their ungrateful and impenitent walk of life?",
+  	  answer:
+  		  "By no means. Scripture says that no unchaste person, idolater, adulterer, thief, greedy person, drunkard, slanderer, robber, or the like shall inherit the kingdom of God.",
+  	),
+  88  What is the true repentance or conversion of man?
+  	  answer:
+  		  "It is the dying of the old nature and the coming to life of the new.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 89,
+  	  question: "89. What is the dying of the old nature?",
+  	  answer:
+  		  "It is to grieve with heartfelt sorrow that we have offended God by our sin, and more and more to hate it and flee from it.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 90,
+  	  question: "90. What is the coming to life of the new nature?",
+  	  answer:
+  		  "It is a heartfelt joy in God through Christ, and a love and delight to live according to the will of God in all good works.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 91,
+  	  question: "91. But what are good works?",
+  	  answer:
+  		  "Only those which are done out of true faith, in accordance with the law of God, and to His glory, and not those based on our own opinion or on precepts of men.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 92,
+  	  question: "92. What is the law of the LORD?",
+  	  answer:
+  		  "God spoke all these words, saying: I am the LORD your God, who brought you out of the land of Egypt, out of the house of bondage.  1. You shall have no other gods before Me.  2. You shall not make for yourself a graven image,  2. or any likeness of anything that is in heaven above,  2. or that is in the earth beneath,  2. or that is in the water under the earth;  2. you shall not bow down to them or serve them;  2. for I the LORD your God am a jealous God,  2. visiting the iniquity of the fathers upon the children  2. to the third and fourth generation  2. of those who hate Me,  2. but showing steadfast love to thousands of those  2. who love Me and keep My commandments.  3. You shall not take the Name of the LORD your God  3. in vain;  3. for the LORD will not hold him guiltless  3. who takes His Name in vain.  4. Remember the sabbath day, to keep it holy.  4. Six days you shall labour, and do all your work;  4. but the seventh day is a sabbath to the LORD your  4. God;  4. in it you shall not do any work,  4. you, or your son, or your daughter,  4. your manservant, or your maidservant,  4. or your cattle,  4. or the sojourner who is within your gates;  4. for in six days the LORD made heaven and earth,  4. the sea, and all that is in them,  4. and rested the seventh day;  4. therefore the LORD blessed the sabbath day  4. and hallowed it.  5. Honour your father and your mother,  5. that your days may be long  5. in the land which the LORD your God gives you.  6. You shall not kill.  7. You shall not commit adultery.  8. You shall not steal.  9. You shall not bear false witness against your neighbour.  10. you shall not covet your neighbour's house;  10. you shall not covet your neighbour's wife,  10. or his manservant, or his maidservant,  10. or his ox, or his ass,  10. or anything that is your neighbour's.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 93,
+  	  question: "93. How are these commandments divided?",
+  	  answer:
+  		  "Into two parts. The first teaches us how to live in relation to God; the second, what duties we owe our neighbour.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 94,
+  	  question: "94. What does the LORD require in the first commandment?",
+  	  answer:
+  		  "That for the sake of my very salvation I avoid and flee all idolatry, witchcraft, superstition, and prayer to saints or to other creatures. Further, that I rightly come to know the only true God. trust in Him alone, submit to Him with all humility and patience, expect all good from Him only, and love, fear, and honour Him with all my heart.   In short, that I forsake all creatures rather than do the least thing against His will.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 95,
+  	  question: "95. What is idolatry?",
+  	  answer:
+  		  "Idolatry is having or inventing something in which to put our trust instead of, or in addition to, the only true God who has revealed Himself in His Word.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 96,
+  	  question: "96. What does God require in the second commandment?",
+  	  answer:
+  		  "We are not to make an image of God in any way, nor to worship Him in any other manner than He has commanded in His Word.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 97,
+  	  question: "97. May we then not make any image at all?",
+  	  answer:
+  		  "God cannot and may not be visibly portrayed in any way.  Creatures may be portrayed, but God forbids us to make or have any images of them in order to worship them or to serve God through them.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 98,
+  	  question: "98. But may images not be tolerated in the churches as "books for the laity"?",
+  	  answer:
+  		  "No, for we should not be wiser than God.  He wants His people to be taught not by means of dumb images but by the living preaching of His Word.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 99,
+  	  question: "99. What is required in the third commandment?",
+  	  answer:
+  		  "We are not to blaspheme or to abuse the Name of God by cursing, perjury, or unnecessary oaths, nor to share in such horrible sins by being silent bystanders. In short, we must use the holy Name of God only with fear and reverence, so that we may rightly confess Him, call upon Him, and praise Him in all our words and works.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 100,
+  	  question: "100. Is the blaspheming of God's Name by swearing and cursing such a grievous sin that God is angry also with those who do not prevent and forbid it as much as they can?",
+  	  answer:
+  		  "Certainly, for no sin is greater or provokes God's wrath more than the blaspheming of His Name. That is why He commanded it to be punished with death.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 101,
+  	  question: "101. But may we swear an oath by the Name of God in a godly manner?",
+  	  answer:
+  		  "Yes, when the government demands it of its subjects, or when necessity requires it, in order to maintain and promote fidelity and truth, to God's glory and for our neighbour's good. Such oath-taking is based on God's Word and was therefore rightly used by saints in the Old and the New Testament.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 102,
+  	  question: "102. May we also swear by saints or other creatures?",
+  	  answer:
+  		  "No. A lawful oath is a calling upon God, who alone knows the heart, to bear witness to the truth, and to punish me if I swear falsely. No creature is worthy of such honour.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 103,
+  	  question: "103. What does God require in the fourth commandment?",
+  	  answer:
+  		  "First, that the ministry of the gospel and the schools be maintained and that, especially on the day of rest, I diligently attend the church of God to hear God's Word, to use the sacraments, to call publicly upon the LORD, and to give Christian offerings for the poor. Second, that all the days of my life I rest from my evil works, let the LORD work in me through His Holy Spirit, and so begin in this life the eternal sabbath.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 104,
+  	  question: "104. What does God require in the fifth commandment?",
+  	  answer:
+  		  "That I show all honour, love, and faithfulness to my father and mother and to all those in authority over me, submit myself with due obedience to their good instruction and discipline, and also have patience with their weaknesses and shortcomings, since it is God's will to govern us by their hand.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 105,
+  	  question: "105. What does God require in the sixth commandment?",
+  	  answer:
+  		  "I am not to dishonour, hate, injure, or kill my neighbour by thoughts, words, or gestures, and much less by deeds, whether personally or through another; rather, I am to put away all desire of revenge. Moreover, I am not to harm or recklessly endanger myself. Therefore, also, the government bears the sword to prevent murder.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 106,
+  	  question: "106. But does this commandment speak only of killing?",
+  	  answer:
+  		  "By forbidding murder God teaches us that He hates the root of murder, such as envy, hatred, anger, and desire of revenge, and that He regards all these as murder.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 107,
+  	  question: "107. Is it enough, then, that we do not kill our neighbour in any such way?",
+  	  answer:
+  		  "No. When God condemns envy, hatred, and anger, He commands us to love our neighbour as ourselves, to show patience, peace, gentleness, mercy, and friendliness toward him, to protect him from harm as much as we can, and to do good even to our enemies.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 108,
+  	  question: "108. What does the seventh commandment teach us?",
+  	  answer:
+  		  "That all unchastity is cursed by God. We must therefore detest it from the heart and live chaste and disciplined lives, both within and outside of holy marriage.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 109,
+  	  question: "109. Does God in this commandment forbid nothing more than adultery and similar shameful sins?",
+  	  answer:
+  		  "Since we, body and soul, are temples of the Holy Spirit, it is God's will that we keep ourselves pure and holy.  Therefore He forbids all unchaste acts, gestures, words, thoughts, desires, and whatever may entice us to unchastity.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 110,
+  	  question: "110. What does God forbid in the eighth commandment?",
+  	  answer:
+  		  "God forbids not only outright theft and robbery but also such wicked schemes and devices as false weights and measures, deceptive merchandising, counterfeit money, and usury; we must not defraud our neighbour in any way, whether by force or by show of right. In addition God forbids all greed and all abuse or squandering of His gifts.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 111,
+  	  question: "111. What does God require of you in this commandment?",
+  	  answer:
+  		  "I must promote my neighbour's good wherever I can and may, deal with him as I would like others to deal with me, and work faithfully so that I may be able to give to those in need.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 112,
+  	  question: "112. What is required in the ninth commandment?",
+  	  answer:
+  		  "I must not give false testimony against anyone, twist no one's words, not gossip or slander, nor condemn or join in condemning anyone rashly and unheard. Rather, I must avoid all lying and deceit as the devil's own works, under penalty of God's heavy wrath. In court and everywhere else, I must love the truth, speak and confess it honestly, and do what I can to defend and promote my neighbour's honour and reputation.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 113,
+  	  question: "113. What does the tenth commandment require of us?",
+  	  answer:
+  		  "That not even the slightest thought or desire contrary to any of God's commandments should ever arise in our heart.  Rather, we should always hate all sin with all our heart, and delight in all righteousness.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 114,
+  	  question: "114. But can those converted to God keep these commandments perfectly?",
+  	  answer:
+  		  "No. In this life even the holiest have only a small beginning of this obedience. Nevertheless, with earnest purpose they do begin to live not only according to some but to all the commandments of God.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 115,
+  	  question: "115. If in this life no one can keep the ten commandments perfectly, why does God have them preached so strictly?",
+  	  answer:
+  		  "First, that throughout our life we may more and more become aware of our sinful nature, and therefore seek more eagerly the forgiveness of sins and righteousness in Christ. Second, that we may be zealous for good deeds and constantly pray to God for the grace of the Holy Spirit, that He may more and more renew us after God's image, until after this life we reach the goal of perfection.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 116,
+  	  question: "116. Why is prayer necessary for Christians?",
+  	  answer:
+  		  "Because prayer is the most important part of the thankfulness which God requires of us. Moreover, God will give His grace and the Holy Spirit only to those who constantly and with heartfelt longing ask Him for these gifts and thank Him for them.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 117,
+  	  question: "117. What belongs to a prayer which pleases God and is heard by Him?",
+  	  answer:
+  		  "First, we must from the heart call upon the one true God only, who has revealed Himself in His Word, for all that He has commanded us to pray. Second, we must thoroughly know our need and misery, so that we may humble ourselves before God. Third, we must rest on this firm foundation that, although we do not deserve it, God will certainly hear our prayer for the sake of Christ our Lord, as He has promised us in His Word.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 118,
+  	  question: "118. What has God commanded us to ask of Him?",
+  	  answer:
+  		  "All the things we need for body and soul, as included in the prayer which Christ our Lord Himself taught us.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 119,
+  	  question: "119. What is the Lord's prayer?",
+  	  answer:
+  		  "Our Father who art in heaven, Hallowed be Thy Name.  Thy kingdom come, Thy will be done, On earth as it is in heaven.  Give us this day our daily bread; And forgive us our debts, As we also have forgiven our debtors; And lead us not into temptation, But deliver us from the evil one.  For Thine is the kingdom, and the power, and the glory, for ever. Amen.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 120,
+  	  question: "120. Why has Christ commanded us to address God as Our Father?",
+  	  answer:
+  		  "To awaken in us at the very beginning of our prayer that childlike reverence and trust toward God which should be basic to our prayer: God has become our Father through Christ and will much less deny us what we ask of Him in faith than our fathers would refuse us earthly things.  Matt. 7:9-11; Luke 11:11-13. 121. ",
+  	),
+  	QuestionAndAnswer(
+  	  index: 121,
+  	  question: "121. Why is there added, Who art in heaven?  ",
+  	  answer:
+  		  "These words teach us not to think of God's heavenly majesty in an earthly manner, and to expect from His almighty power all things we need for body and soul.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 122,
+  	  question: "122. What is the first petition?",
+  	  answer:
+  		  "Hallowed be Thy Name.  That is: Grant us first of all that we may rightly know Thee, and sanctify, glorify, and praise Thee in all Thy works, in which shine forth Thy almighty power, wisdom, goodness, righteousness, mercy, and truth. Grant us also that we may so direct our whole life -- our thoughts, words, and actions -- that Thy Name is not blasphemed because of us but always honoured and praised.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 123,
+  	  question: "123. What is the second petition?",
+  	  answer:
+  		  "Thy kingdom come.  That is: So rule us by Thy Word and Spirit that more and more we submit to Thee. Preserve and increase Thy church. Destroy the works of the devil, every power that raises itself against Thee, and every conspiracy against Thy holy Word. Do all this until the fulness of Thy kingdom comes, wherein Thou shalt be all in all.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 124,
+  	  question: "124. What is the third petition?",
+  	  answer:
+  		  "Thy will be done, on earth as it is in heaven.  That is: Grant that we and all men may deny our own will, and without any murmuring obey Thy will, for it alone is good. Grant also that everyone may carry out the duties of his office and calling as willingly and faithfully as the angels in heaven.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 125,
+  	  question: "125. What is the fourth petition?",
+  	  answer:
+  		  "Give us this day our daily bread.  That is: Provide us with all our bodily needs so that we may acknowledge that Thou art the only fountain of all good, and that our care and labour, and also Thy gifts, cannot do us any good without Thy blessing. Grant therefore that we may withdraw our trust from all creatures, and place it only in Thee.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 126,
+  	  question: "126. What is the fifth petition?",
+  	  answer:
+  		  "And forgive us our debts, as we also have forgiven our debtors.  That is: For the sake of Christ's blood, do not impute to us, wretched sinners; any of our transgressions, nor the evil which still clings to us, as we also find this evidence of Thy grace in us that we are fully determined wholeheartedly to forgive our neighbor.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 127,
+  	  question: "127. What is the sixth petition?",
+  	  answer:
+  		  "And lead us not into temptation, but deliver us from the evil one.  That is: In ourselves we are so weak that we cannot stand even for a moment. Moreover, our sworn enemies -- the devil, the world, and our own flesh -- do not cease to attack us.  Wilt Thou, therefore, uphold and strengthen us by the power of Thy Holy Spirit, so that in this spiritual war we may not go down to defeat, but always firmly resist our enemies, until we finally obtain the complete victory.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 128,
+  	  question: "128. How do you conclude your prayer?",
+  	  answer:
+  		  "For Thine is the kingdom, and the power, and the glory, for ever.  That is: All this we ask of Thee because, as our King, having power over all things, Thou art both willing and able to give us all that is good, and because not we but Thy holy Name should so receive all glory for ever.",
+  	),
+  	QuestionAndAnswer(
+  	  index: 129,
+  	  question: "129. What does the word Amen mean?",
+  	  answer:
+  		  "Amen means: It is true and certain.  For God has much more certainly heard my prayer than I feel in my heart that I desire this of Him.",
+  	),
   ];
 }
