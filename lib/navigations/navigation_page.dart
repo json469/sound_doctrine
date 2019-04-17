@@ -8,6 +8,7 @@ import '../councils/council_of_orange/counciloforangecanon_page.dart';
 import '../councils/second_council_of_contantionople/second_council_of_contantionople_page.dart';
 import '../confessions/belgic_confession/belgic_confession_page.dart';
 import '../confessions/westminster_confession/westminster_confession_page.dart';
+import '../confessions/london_confession/london_confession_page.dart';
 import '../catechisms/heidelberg_catechism/heidelberg_page.dart';
 import '../other_documents/ninetyfive_theses/ninteyfivethesese_page.dart';
 
@@ -47,6 +48,10 @@ final List<NavigationPageItem> _confessionsPageItems = [
   NavigationPageItem(
     title: "Westminster Confession (1647)",
     route: WestminsterConfessionPage(),
+  ),
+  NavigationPageItem(
+    title: "London Baptist Confession (1689)",
+    route: LondonConfessionPage(),
   ),
 ];
 final List<NavigationPageItem> _catechismsPageItems = [
