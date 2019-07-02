@@ -4,22 +4,16 @@ import 'package:url_launcher/url_launcher.dart';
 import 'about_page.dart';
 import 'feedback_page.dart';
 
-const APP_VERSION = 'v1.0';
+const APP_VERSION = 'v1.1';
 const APP_NAME = 'Sound Doctrine';
 const APP_DESCRIPTION =
     'An offline library app of the creeds, confessions and catechisms of the protestant reformed churches.';
-const APP_DEVLOPER = 'Developed by Jesse Son for the glory of God alone.';
+const APP_DEVLOPER = 'Developed by Jesse for the glory of God alone.';
 
 class NavigationDrawer extends StatelessWidget {
   final List<DrawerItem> _drawerItems = [
     DrawerItem('About', Icons.info, AboutPage()),
     DrawerItem('Feedback', Icons.feedback, FeedbackPage()),
-
-    /* TODO: Update additional items
-    DrawerItem('Contribute', Icons.people, ContributePage()),
-    DrawerItem('Donate', Icons.monetization_on, ContributePage()),
-    DrawerItem('Open Source', Icons.code, ContributePage()),
-    */
   ];
 
   @override
@@ -54,7 +48,6 @@ class NavigationDrawer extends StatelessWidget {
       ));
     });
 
-    // Add OpenSource modal tile
     _drawerList.add(ListTile(
       title: Text('Open Source'),
       leading: Icon(
