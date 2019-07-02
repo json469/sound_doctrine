@@ -14,12 +14,6 @@ class NavigationDrawer extends StatelessWidget {
   final List<DrawerItem> _drawerItems = [
     DrawerItem('About', Icons.info, AboutPage()),
     DrawerItem('Feedback', Icons.feedback, FeedbackPage()),
-
-    /* TODO: Update additional items
-    DrawerItem('Contribute', Icons.people, ContributePage()),
-    DrawerItem('Donate', Icons.monetization_on, ContributePage()),
-    DrawerItem('Open Source', Icons.code, ContributePage()),
-    */
   ];
 
   @override
@@ -54,7 +48,6 @@ class NavigationDrawer extends StatelessWidget {
       ));
     });
 
-    // Add OpenSource modal tile
     _drawerList.add(ListTile(
       title: Text('Open Source'),
       leading: Icon(
