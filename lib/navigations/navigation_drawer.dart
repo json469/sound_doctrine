@@ -4,7 +4,7 @@ import 'package:url_launcher/url_launcher.dart';
 import 'about_page.dart';
 import 'feedback_page.dart';
 
-const APP_VERSION = 'v1.0';
+const APP_VERSION = 'v1.1';
 const APP_NAME = 'Sound Doctrine';
 const APP_DESCRIPTION =
     'An offline library app of the creeds, confessions and catechisms of the protestant reformed churches.';

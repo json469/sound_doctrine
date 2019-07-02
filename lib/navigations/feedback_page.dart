@@ -6,12 +6,12 @@ class FeedbackPage extends StatelessWidget {
     TileItem(
       title: 'Rating and Comments',
       description:
-          'This app will never bother you with pop-ups asking to rate or review the the app. But if you have any feedback, feel free to either email the developer directly or leave a rating and comment on the app store.',
+          'This app will never bother you with pop-ups asking to rate or review the the app. But if you have any feedback, please feel free to either email the developer directly or leave a rating and comment on the app store.',
     ),
     TileItem(
       title: 'Typos and Bugs',
       description:
-          'Although developed with care and love, if there be any typos or mistakes please contact the developer with concise details to help fix it.',
+          'Although developed with care and love, if you find any typos or bugs please contact the developer with concise details to help fix it.',
     ),
     TileItem(
       title: 'Feature Request',
