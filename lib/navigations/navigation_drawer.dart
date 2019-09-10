@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:sound_doctrine/blocs/theme_changer.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import 'about_page.dart';
@@ -24,6 +26,8 @@ class NavigationDrawer extends StatelessWidget {
   }
 
   ListView _renderDrawerList(BuildContext context) {
+    final themeProvider = Provider.of<ThemeChanger>(context);
+
     List<Widget> _drawerList = [
       _renderDrawerHeader(context),
       _renderDrawerSubHeader(context),
@@ -31,11 +35,10 @@ class NavigationDrawer extends StatelessWidget {
 
     _drawerItems.forEach((_drawerItem) {
       _drawerList.add(ListTile(
-          title:
-              Text(_drawerItem.title, style: TextStyle(color: Colors.black87)),
+          title: Text(_drawerItem.title),
           leading: Icon(
             _drawerItem.icon,
-            color: Colors.black87,
+            color: Theme.of(context).iconTheme.color,
           ),
           onTap: () {
             Navigator.push(
@@ -43,16 +46,22 @@ class NavigationDrawer extends StatelessWidget {
               MaterialPageRoute(builder: (context) => _drawerItem.route),
             );
           }));
-      _drawerList.add(Divider(
-        height: 0.0,
-      ));
     });
+
+    _drawerList.add(ListTile(
+      title: Text('Dark Mode'),
+      leading: Icon(
+        Icons.brightness_4,
+        color: Theme.of(context).iconTheme.color,
+      ),
+      onTap: () => themeProvider.toggleTheme(),
+    ));
 
     _drawerList.add(ListTile(
       title: Text('Open Source'),
       leading: Icon(
         Icons.code,
-        color: Colors.black87,
+        color: Theme.of(context).iconTheme.color,
       ),
       onTap: () => _launchURL('https://github.com/json469/sound_doctrine'),
     ));
