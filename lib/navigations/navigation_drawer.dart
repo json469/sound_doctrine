@@ -32,10 +32,9 @@ class NavigationDrawer extends StatelessWidget {
     _drawerItems.forEach((_drawerItem) {
       _drawerList.add(ListTile(
           title:
-              Text(_drawerItem.title, style: TextStyle(color: Colors.black87)),
+              Text(_drawerItem.title),
           leading: Icon(
             _drawerItem.icon,
-            color: Colors.black87,
           ),
           onTap: () {
             Navigator.push(
@@ -52,7 +51,7 @@ class NavigationDrawer extends StatelessWidget {
       title: Text('Open Source'),
       leading: Icon(
         Icons.code,
-        color: Colors.black87,
+        color: Theme.of(context).iconTheme.color,
       ),
       onTap: () => _launchURL('https://github.com/json469/sound_doctrine'),
     ));
@@ -77,11 +76,11 @@ class NavigationDrawer extends StatelessWidget {
           ),
           Text(
             APP_NAME,
-            style: Theme.of(context).textTheme.title,
+            style: TextStyle(fontSize: 23, color: Colors.white),
           ),
           Text(
             APP_VERSION,
-            style: Theme.of(context).textTheme.caption,
+            style: TextStyle(fontSize: 14, color: Colors.white),
           ),
         ],
       ),

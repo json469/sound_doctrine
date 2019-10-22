@@ -12,6 +12,8 @@ import '../confessions/london_confession/london_confession_page.dart';
 import '../catechisms/heidelberg_catechism/heidelberg_page.dart';
 import '../other_documents/ninetyfive_theses/ninteyfivethesese_page.dart';
 
+import '../global/globals.dart' as globals;
+
 final List<NavigationPageItem> _creedsPageItems = [
   NavigationPageItem(
     title: "Apostles' Creed",
@@ -144,12 +146,14 @@ List<Widget> _buildCategory(
 }
 
 Widget _buildHeader(BuildContext context, String header) {
-  return Container(
+  return Center(
+  child: Container(
+    color: Theme.of(context).primaryColor,
     height: 50.0,
-    color: Colors.blueGrey[700],
     padding: EdgeInsets.symmetric(horizontal: 8.0),
     alignment: Alignment.centerLeft,
-    child: Text('$header', style: Theme.of(context).textTheme.display1),
+    child: Text('$header', textAlign: TextAlign.center, style: TextStyle(color: globals.useDarkTheme ? Colors.white : Colors.black,fontSize: 30)),
+  ),
   );
 }
 
