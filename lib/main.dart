@@ -5,6 +5,7 @@ import './home.dart';
 import './global/globals.dart' as globals;
 
 Future main() async {
+  WidgetsFlutterBinding.ensureInitialized();
   SharedPreferences prefs = await SharedPreferences.getInstance();
   globals.useDarkTheme = (prefs.getBool('Value') ?? true);
   runApp(new App());
