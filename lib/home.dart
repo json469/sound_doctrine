@@ -1,6 +1,4 @@
-import 'package:dynamic_theme/dynamic_theme.dart';
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'navigations/navigation_drawer.dart';
 import 'navigations/navigation_page.dart';
 
@@ -33,17 +31,6 @@ class _HomePageState extends State<Home> {
       ),
       body: NavigationPage(),
       drawer: NavigationDrawer(),
-      floatingActionButton: FloatingActionButton(
-        onPressed: changeBrightness,
-        child: const Icon(FontAwesomeIcons.palette),
-      ),
     );
-  }
-
-  void changeBrightness() {
-    DynamicTheme.of(context).setBrightness(
-        Theme.of(context).brightness == Brightness.dark
-            ? Brightness.light
-            : Brightness.dark);
   }
 }

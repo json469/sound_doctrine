@@ -1,4 +1,6 @@
+import 'package:dynamic_theme/dynamic_theme.dart';
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import 'about_page.dart';
@@ -31,8 +33,7 @@ class NavigationDrawer extends StatelessWidget {
 
     _drawerItems.forEach((_drawerItem) {
       _drawerList.add(ListTile(
-          title:
-              Text(_drawerItem.title),
+          title: Text(_drawerItem.title),
           leading: Icon(
             _drawerItem.icon,
           ),
@@ -51,10 +52,23 @@ class NavigationDrawer extends StatelessWidget {
       title: Text('Open Source'),
       leading: Icon(
         Icons.code,
-        color: Theme.of(context).iconTheme.color,
       ),
       onTap: () => _launchURL('https://github.com/json469/sound_doctrine'),
     ));
+    
+      _drawerList.add(Divider(
+        height: 0.0,
+      ));
+    _drawerList.add(
+      ListTile(
+        leading: Icon(FontAwesomeIcons.adjust),
+        title: Text("Change Brightness"),
+        trailing: Switch.adaptive(
+          value: DynamicTheme.of(context).brightness == Brightness.dark,
+          onChanged: (bool isDark) => DynamicTheme.of(context)
+              .setBrightness(isDark ? Brightness.dark : Brightness.light),
+        ),
+      ));
 
     return ListView(
       padding: EdgeInsets.all(0.0),
