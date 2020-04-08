@@ -11,7 +11,7 @@ class BelgicPage extends StatelessWidget {
       appBar: AppBar(
         title: AutoSizeText(
           'Belgic Confession (1561)',
-          style: Theme.of(context).textTheme.title,
+          style: Theme.of(context).textTheme.headline6,
           maxLines: 1,
           maxFontSize: 20,
         ),

@@ -10,7 +10,7 @@ class AthanasianCreedPage extends StatelessWidget {
       appBar: AppBar(
         title: AutoSizeText(
           "Athanasian Creed (500 AD)",
-          style: Theme.of(context).textTheme.title,
+          style: Theme.of(context).textTheme.headline6,
           maxLines: 1,
           maxFontSize: 20,
         ),

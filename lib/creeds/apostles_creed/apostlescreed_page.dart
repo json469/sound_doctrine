@@ -10,7 +10,7 @@ class ApostlesCreedPage extends StatelessWidget {
       appBar: AppBar(
         title: AutoSizeText(
           "Apostles' Creed",
-          style: Theme.of(context).textTheme.title,
+          style: Theme.of(context).textTheme.headline6,
           maxLines: 1,
           maxFontSize: 20,
         ),

@@ -10,7 +10,7 @@ class CouncilOfOrangeCanonPage extends StatelessWidget {
       appBar: AppBar(
         title: AutoSizeText(
           "Canons on the Council of Orange (529 AD)",
-          style: Theme.of(context).textTheme.title,
+          style: Theme.of(context).textTheme.headline6,
           maxLines: 1,
           maxFontSize: 20,
         ),

@@ -10,7 +10,7 @@ class ChalcedonianCreedPage extends StatelessWidget {
       appBar: AppBar(
         title: AutoSizeText(
           "Chalcedonian Creed (451 AD)",
-          style: Theme.of(context).textTheme.title,
+          style: Theme.of(context).textTheme.headline6,
           maxLines: 1,
           maxFontSize: 20,
         ),

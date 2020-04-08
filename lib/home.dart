@@ -2,7 +2,15 @@ import 'package:flutter/material.dart';
 import 'navigations/navigation_drawer.dart';
 import 'navigations/navigation_page.dart';
 
-class Home extends StatelessWidget {
+class Home extends StatefulWidget {
+  Home({Key key, this.title}) : super(key: key);
+  final String title;
+
+  @override
+  _HomePageState createState() => _HomePageState();
+}
+
+class _HomePageState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -17,7 +25,7 @@ class Home extends StatelessWidget {
             SizedBox(
               width: 10,
             ),
-            Text('Sound Doctrine', style: Theme.of(context).textTheme.title),
+            Text('Sound Doctrine'),
           ],
         ),
       ),

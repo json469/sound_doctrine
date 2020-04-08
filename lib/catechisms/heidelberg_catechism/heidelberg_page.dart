@@ -13,7 +13,7 @@ class HeidelbergPage extends StatelessWidget {
       appBar: AppBar(
         title: AutoSizeText(
           'Heidelberg Catechism (1576)',
-          style: Theme.of(context).textTheme.title,
+          style: Theme.of(context).textTheme.headline6,
           maxLines: 1,
           maxFontSize: 20,
         ),
@@ -53,7 +53,7 @@ class HeidelbergPage extends StatelessWidget {
       color: Colors.blueGrey[700],
       padding: EdgeInsets.symmetric(horizontal: 8.0),
       alignment: Alignment.centerLeft,
-      child: Text('$title', style: Theme.of(context).textTheme.display1),
+      child: Text('$title', style: Theme.of(context).textTheme.headline6),
     );
   }
 }

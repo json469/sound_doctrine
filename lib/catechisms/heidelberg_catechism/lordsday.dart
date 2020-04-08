@@ -12,7 +12,7 @@ class LordsDayPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('${lordsDay.header}',
-            style: Theme.of(context).textTheme.title),
+            style: Theme.of(context).textTheme.headline6),
       ),
       body: _buildQuestionsAndAnswers(context, lordsDay.questionsAndAnswers),
     );
@@ -29,7 +29,7 @@ class LordsDayPage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
               Text(qna[index].question,
-                  style: Theme.of(context).textTheme.body2),
+                  style: Theme.of(context).textTheme.bodyText1),
               Text(qna[index].answer),
             ],
           ),

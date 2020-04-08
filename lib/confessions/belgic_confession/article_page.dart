@@ -13,7 +13,7 @@ class ArticlePage extends StatelessWidget {
       appBar: AppBar(
         title: AutoSizeText(
           '${article.title}',
-          style: Theme.of(context).textTheme.title,
+          style: Theme.of(context).textTheme.headline6,
           maxLines: 2,
           maxFontSize: 20,
         ),

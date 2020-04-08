@@ -1,43 +1,32 @@
+import 'package:dynamic_theme/dynamic_theme.dart';
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import './home.dart';
+import './global/globals.dart' as globals;
 
-void main() => runApp(App());
+Future main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  SharedPreferences prefs = await SharedPreferences.getInstance();
+  globals.useDarkTheme = (prefs.getBool('Value') ?? true);
+  runApp(new App());
+//  demo();
+}
 
 class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Project Heidelberg',
-      theme: ThemeData(
-          fontFamily: 'Open Sans',
-          textTheme: TextTheme(
-            body1: TextStyle(fontSize: 18.0),
-            body2: TextStyle(
-                fontSize: 18.0,
-                color: Colors.black87,
-                fontWeight: FontWeight.w700),
-            caption: TextStyle(
-              fontSize: 14.0,
-              color: Colors.white,
+    return new DynamicTheme(
+        defaultBrightness: Brightness.light,
+        data: (brightness) => new ThemeData(
+              primarySwatch: Colors.blue,
+              brightness: brightness,
             ),
-            title: TextStyle(
-              fontSize: 22.0,
-              fontWeight: FontWeight.w700,
-              color: Colors.white,
-            ),
-            display1: TextStyle(
-              fontSize: 18.0,
-              color: Colors.white,
-              fontWeight: FontWeight.w700,
-            ),
-            button: TextStyle(
-              fontSize: 24.0,
-              fontWeight: FontWeight.w700,
-              color: Colors.white,
-            ),
-          )),
-      home: Home(),
-    );
+        themedWidgetBuilder: (context, theme) {
+          return MaterialApp(
+            theme: theme,
+            debugShowCheckedModeBanner: false,
+            home: Home(),
+          );
+        });
   }
 }
