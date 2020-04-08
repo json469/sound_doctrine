@@ -24,7 +24,7 @@ class FeedbackPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Feedback', style: Theme.of(context).textTheme.title),
+        title: Text('Feedback', style: Theme.of(context).textTheme.headline6),
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -63,7 +63,7 @@ class FeedbackPage extends StatelessWidget {
       color: Colors.blueGrey[700],
       padding: EdgeInsets.symmetric(horizontal: 8.0),
       alignment: Alignment.centerLeft,
-      child: Text('$title', style: Theme.of(context).textTheme.display1),
+      child: Text('$title', style: Theme.of(context).textTheme.headline6),
     );
   }
 

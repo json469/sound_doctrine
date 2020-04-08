@@ -7,7 +7,7 @@ class NinetyfiveThesesePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Ninety-five Theses (1517)",
-            style: Theme.of(context).textTheme.title),
+            style: Theme.of(context).textTheme.headline6),
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(8.0),

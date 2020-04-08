@@ -11,7 +11,7 @@ class LondonConfessionPage extends StatelessWidget {
       appBar: AppBar(
         title: AutoSizeText(
           'London Baptist Confession (1689)',
-          style: Theme.of(context).textTheme.title,
+          style: Theme.of(context).textTheme.headline6,
           maxLines: 1,
           maxFontSize: 20,
         ),

@@ -59,10 +59,11 @@ class NavigationDrawer extends StatelessWidget {
       _drawerList.add(Divider(
         height: 0.0,
       ));
+
     _drawerList.add(
       ListTile(
         leading: Icon(FontAwesomeIcons.adjust),
-        title: Text("Change Brightness"),
+        title: Text("Dark Mode"),
         trailing: Switch.adaptive(
           value: DynamicTheme.of(context).brightness == Brightness.dark,
           onChanged: (bool isDark) => DynamicTheme.of(context)

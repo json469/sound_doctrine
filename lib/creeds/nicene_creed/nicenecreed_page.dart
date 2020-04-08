@@ -10,7 +10,7 @@ class NiceneCreedPage extends StatelessWidget {
       appBar: AppBar(
         title: AutoSizeText(
           "Nicene Creed (325 AD)",
-          style: Theme.of(context).textTheme.title,
+          style: Theme.of(context).textTheme.headline6,
           maxLines: 1,
           maxFontSize: 20,
         ),

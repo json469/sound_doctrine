@@ -10,7 +10,7 @@ class SecondCouncilOfContantionoplePage extends StatelessWidget {
       appBar: AppBar(
         title: AutoSizeText(
           "Second Council of Constantinople (553 AD)",
-          style: Theme.of(context).textTheme.title,
+          style: Theme.of(context).textTheme.headline6,
           maxLines: 1,
           maxFontSize: 20,
         ),

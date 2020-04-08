@@ -13,7 +13,7 @@ class ChapterPage extends StatelessWidget {
       appBar: AppBar(
         title: AutoSizeText(
           '${chapter.title}',
-          style: Theme.of(context).textTheme.title,
+          style: Theme.of(context).textTheme.headline6,
           maxLines: 2,
           maxFontSize: 20,
         ),
