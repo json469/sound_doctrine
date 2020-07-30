@@ -3,8 +3,8 @@
 
 An iOS/Android app created in Flutter to provide local access to the tested creeds, confessions and articles of the historical protestant reformed church. Currently includes: Apostle's Creed, Nicene Creed, Athanasian Creed, Chalcedonian Creed, Council of Orange, Second Council of Constantinople, Nintey-five Theses, Belgic Confession, Heidelberg Catechism, and Westminster Confession.
 
-## Download
-[<img src="https://itsallwidgets.com/images/google.png" width="160px">](https://play.google.com/store/apps/details?id=com.jessethetentdeveloper.sound_doctrine)
+## ~~Download~~
+Requires republishing ⚠️
 
 ## Resources
 Due to the lack of API for creeds and confessional, all contents were retrieved manually from various trusted sources:
